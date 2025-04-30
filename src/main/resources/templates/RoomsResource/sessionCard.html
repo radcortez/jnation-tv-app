@@ -1,0 +1,53 @@
+<html lang="en">
+<head title="{session.room} - {session.title}">
+    <meta http-equiv="refresh" content="30" />
+    <style>
+        body {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: {roomConfig.cssColor};
+            color: white;
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .room {
+            background-color: #ffffff20;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 24pt;
+            line-height: 10px;
+        }
+        .room h6 {
+            margin-block-end: 16px;
+        }
+        .card {
+            border-radius: 8px;
+            width: 90%;
+            padding-top: 50px;
+        }
+        img {
+            max-width: 10%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="room">
+    <h1>{session.room}</h1>
+    <h6>{session.startsAt.format('HH:mm')} - {session.endsAt.format('HH:mm')}h</h6>
+</div>
+<div class="card">
+    <h1>{session.title}</h1>
+    <h3>{session.description}</h3>
+    {#for speaker in session.speakers}
+        <div>
+            <img src="{speaker.profilePicture}" alt="">
+            <h1>{speaker.fullName}</h1>
+        </div>
+    {/for}
+</div>
+</body>
+</html>
