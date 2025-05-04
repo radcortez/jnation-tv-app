@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="refresh" content="30" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <style>
         body {
             text-align: center;
@@ -13,29 +14,45 @@
             font-family: sans-serif;
             padding: 0;
         }
-        h1 {
-            text-transform: uppercase;
+        h3 {
+            margin: 10px;
+        }
+        span {
+            margin-right: 5px;
         }
         .session {
             width: 100%;
             height: 100%;
             text-align: left;
-            padding-top: 20px;
             padding-left: 100px;
+            clear: both;
+        }
+        img {
+            max-width: 30%;
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
-    <!-- <h1>{time.startsAt.format('HH:mm')} - {time.endsAt.format('HH:mm')}</h1> -->
     {#for session in sessions}
     <div class="session" style="background-color: {session.roomCssColor.css}">
-        <h2>{session.title}</h2>
-        <h3>
+        <div style="width: 80%; float: left">
+            <h1>{session.title}</h1>
+            <h3>
+                <span class="material-symbols-outlined">podium</span>
+                {#for speaker in session.speakers}
+                    {speaker.fullName}
+                    {#if speaker_hasNext} and {/if}
+                {/for}
+            </h3>
+            <h3><span class="material-symbols-outlined">meeting_room</span> {session.room}</h3>
+            <h3><span class="material-symbols-outlined">schedule</span> {time.startsAt.format('HH:mm')} - {time.endsAt.format('HH:mm')}</h3>
+        </div>
+        <div style="width: 20%; float: left; height: 100%; display: flex; align-items: center;">
             {#for speaker in session.speakers}
-                {speaker.fullName}
-                {#if speaker_hasNext}<br>{/if}
+                <img style="margin-right: 20px" src="{speaker.profilePicture}" alt="">
             {/for}
-        </h3>
+        </div>
     </div>
     {/for}
 </body>
