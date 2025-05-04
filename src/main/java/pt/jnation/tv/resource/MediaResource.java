@@ -20,9 +20,7 @@ public class MediaResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get() {
-        final String string = appConfig.nextMedia().toString();
-        System.out.println(string);
-        return Templates.media(string);
+        return Templates.media(appConfig.nextMedia().toString());
     }
 
     @CheckedTemplate
