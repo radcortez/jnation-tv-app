@@ -19,7 +19,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
-import java.util.function.Consumer;
 
 @Path("/sessions")
 public class SessionsResource {
@@ -41,8 +40,6 @@ public class SessionsResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get(@PathParam("date") final LocalDate date) {
-        // TODO - handle timeouts
-
         LocalDateTime now = LocalDateTime.now()
                 .withHour(17).withMinute(15).withSecond(0) // TODO - remove testing
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
