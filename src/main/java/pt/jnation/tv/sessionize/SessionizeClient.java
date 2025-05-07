@@ -1,5 +1,6 @@
 package pt.jnation.tv.sessionize;
 
+import io.quarkus.cache.CacheResult;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
@@ -17,18 +18,21 @@ import static java.util.stream.Collectors.toSet;
 public interface SessionizeClient {
     @GET
     @Path("/GridSmart")
-    List<Schedule> getSchedules();
+    @CacheResult(cacheName = "gridSmart")
+    List<Schedule> gridSmart();
 
     @GET
     @Path("/Sessions")
-    List<Sessions> getSessionsX();
+    @CacheResult(cacheName = "sessions")
+    List<Sessions> sessions();
 
     @GET
     @Path("/Speakers")
-    List<Speaker> getSpeakers();
+    @CacheResult(cacheName = "speakers")
+    List<Speaker> speakers();
 
     default Optional<Schedule> getSchedule(final LocalDate date) {
-        List<Schedule> schedules = getSchedules();
+        List<Schedule> schedules = gridSmart();
 
         if (schedules.isEmpty()) {
             return Optional.empty();
@@ -44,7 +48,7 @@ public interface SessionizeClient {
     }
 
     default List<Speaker> getSpeakers(final Set<String> ids) {
-        return getSpeakers().stream().filter(speaker -> ids.contains(speaker.id())).collect(Collectors.toList());
+        return speakers().stream().filter(speaker -> ids.contains(speaker.id())).collect(Collectors.toList());
     }
 
     // The Session response from the Schedule does not contain the full Speaker information (only id and name)
@@ -56,7 +60,7 @@ public interface SessionizeClient {
     }
 
     default List<Session> getSessions() {
-        return getSessionsX()
+        return sessions()
                 .stream()
                 .flatMap(sessions -> sessions.sessions().stream())
                 .collect(toList());
