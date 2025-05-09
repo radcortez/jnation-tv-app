@@ -10,12 +10,15 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            padding: 0;
             color: white;
             font-family: sans-serif;
-            padding: 0;
+        }
+        h1 {
+            font-size: 28pt;
         }
         h3 {
-            margin: 10px;
+            font-size: 20pt;
         }
         span {
             margin-right: 5px;
@@ -24,11 +27,31 @@
             width: 100%;
             height: 100%;
             text-align: left;
-            padding-left: 100px;
-            clear: both;
+        }
+        .title {
+            width: 43%;
+            height: 100%;
+            padding-left: 2%;
+            padding-right: 2%;
+            display: flex;
+            align-items: center;
+            float: left
+        }
+        .room {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            float: left
+        }
+        .speakers {
+            width: 28%;
+            height: 100%;
+            display: flex;
+            align-items: center;
         }
         img {
-            max-width: 30%;
+            max-width: 20%;
             border-radius: 50%;
         }
     </style>
@@ -36,22 +59,27 @@
 <body>
     {#for session in sessions}
     <div class="session" style="background-color: {session.roomCssColor.css}">
-        <div style="width: 80%; float: left">
+        <div class="title">
             <h1>{session.title}</h1>
-            <h3>
-                <span class="material-symbols-outlined">podium</span>
-                {#for speaker in session.speakers}
-                    {speaker.fullName}
-                    {#if speaker_hasNext} and {/if}
-                {/for}
-            </h3>
-            <h3><span class="material-symbols-outlined">meeting_room</span> {session.room}</h3>
-            <h3><span class="material-symbols-outlined">schedule</span> {time.startsAt.format('HH:mm')} - {time.endsAt.format('HH:mm')}</h3>
         </div>
-        <div style="width: 20%; float: left; height: 100%; display: flex; align-items: center;">
+        <div class="room">
+            <div style="width: 100%;">
+                <h3><span class="material-symbols-outlined">meeting_room</span> {session.room}</h3>
+                <h3><span class="material-symbols-outlined">schedule</span> {time.startsAt.format('HH:mm')} - {time.endsAt.format('HH:mm')}</h3>
+            </div>
+        </div>
+        <div class="speakers">
             {#for speaker in session.speakers}
                 <img style="margin-right: 20px" src="{speaker.profilePicture}" alt="">
             {/for}
+            <div>
+                <h3>
+                    {#for speaker in session.speakers}
+                        {speaker.fullName}
+                        {#if speaker_hasNext} <br><br> {/if}
+                    {/for}
+                </h3>
+            </div>
         </div>
     </div>
     {/for}
