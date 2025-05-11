@@ -41,6 +41,7 @@ public class SessionsResource {
     @Blocking
     public TemplateInstance get(@PathParam("date") final LocalDate date) {
         LocalDateTime now = LocalDateTime.now()
+                .withHour(16).withMinute(15).withSecond(0) // TODO - remove testing
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
 
         List<Session> sessions = sessionizeClient.getSessions()

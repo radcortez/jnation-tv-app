@@ -69,6 +69,7 @@ public class RoomsResource {
         }
 
         LocalDateTime now = LocalDateTime.now()
+                .withHour(16).withMinute(15).withSecond(0) // TODO - remove testing
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
         for (Session session : sessions) {
             if (now.isBefore(session.endsAt())) {
