@@ -23,7 +23,7 @@ public class StreamResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get(@PathParam("room") final String room) {
-        RoomConfig roomConfig = appConfig.getRoom(room);
+        RoomConfig roomConfig = appConfig.findRoom(room);
         if (roomConfig.stream().isPresent()) {
             return Templates.stream(roomConfig.stream().get().toString());
         }

@@ -61,7 +61,7 @@ public class SessionsResource {
 
         for (Session session : sessions) {
             sessionizeClient.getSessionWithSpeakers(session);
-            appConfig.getRoomByName(session.room()).ifPresent(roomConfig -> session.roomCssColor().setCss(roomConfig.cssColor()));
+            session.roomCssColor().setCss(appConfig.findRoom(session.room()).cssColor());
         }
 
         return Templates.sessions(time, sessions);

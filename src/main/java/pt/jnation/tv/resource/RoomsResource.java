@@ -23,6 +23,7 @@ import java.time.LocalDateTime;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Function;
 
 @Path("/room")
 public class RoomsResource {
@@ -50,7 +51,7 @@ public class RoomsResource {
             return ErrorTemplate.error("Schedule Not Found!");
         }
 
-        RoomConfig roomConfig = appConfig.getRoom(name);
+        RoomConfig roomConfig = appConfig.findRoom(name);
         Optional<Room> room = schedule.get().rooms()
                 .stream()
                 .filter(r -> roomConfig.name().equals(r.name()))
