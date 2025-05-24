@@ -11,8 +11,8 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import pt.jnation.tv.AppConfig;
 
-@Path("/media")
-public class MediaResource {
+@Path("/keynote")
+public class KeynoteResource {
     @Inject
     AppConfig appConfig;
 
@@ -20,12 +20,12 @@ public class MediaResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get() {
-        return Templates.media(appConfig.nextMedia().toString());
+        return Templates.keynote(appConfig.nextKeynote().toString());
     }
 
     @CheckedTemplate
     public static class Templates {
-        @Location("media.html")
-        public static native TemplateInstance media(String url);
+        @Location("keynote.html")
+        public static native TemplateInstance keynote(String url);
     }
 }
