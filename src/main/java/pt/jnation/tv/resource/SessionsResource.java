@@ -43,7 +43,15 @@ public class SessionsResource {
         LocalDateTime now = LocalDateTime.now()
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
 
-        List<Session> sessions = sessionizeClient.getSessions()
+        System.out.println("now = " + now);
+
+        List<Session> sessions1 = sessionizeClient.getSessions();
+        System.out.println("sessions1.size() = " + sessions1.size());
+        for (Session session : sessions1) {
+            System.out.println(session);
+        }
+
+        List<Session> sessions = sessions1
                 .stream()
                 .filter(session -> !session.speakers().isEmpty())
                 .filter(session -> session.startsAt() != null && session.endsAt() != null)
