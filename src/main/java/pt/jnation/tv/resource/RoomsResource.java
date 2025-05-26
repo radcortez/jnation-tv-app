@@ -23,7 +23,6 @@ import java.time.LocalDateTime;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Function;
 
 @Path("/room")
 public class RoomsResource {
@@ -73,7 +72,6 @@ public class RoomsResource {
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
         for (Session session : sessions) {
             if (now.isBefore(session.endsAt())) {
-                // TODO - Add Session Level
                 return Templates.sessionCard(sessionizeClient.getSessionWithSpeakers(session), roomConfig);
             }
         }

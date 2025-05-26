@@ -20,6 +20,9 @@ public interface AppConfig {
     @WithDefault("https://jnation.pt")
     List<URI> media();
 
+    @WithDefault("https://jnation.pt")
+    List<URI> keynote();
+
     @WithDefault("15s")
     Duration interval();
 
@@ -44,5 +47,9 @@ public interface AppConfig {
 
     default URI nextMedia() {
         return media().get(LocalTime.now().toSecondOfDay() / interval().toSecondsPart() % media().size());
+    }
+
+    default URI nextKeynote() {
+        return keynote().get(LocalTime.now().toSecondOfDay() / interval().toSecondsPart() % keynote().size());
     }
 }
