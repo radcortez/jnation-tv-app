@@ -18,14 +18,17 @@ import static java.util.stream.Collectors.toSet;
 public interface SessionizeClient {
     @GET
     @Path("/GridSmart")
+    @CacheResult(cacheName = "gridSmart")
     List<Schedule> gridSmart();
 
     @GET
     @Path("/Sessions")
+    @CacheResult(cacheName = "sessions")
     List<Sessions> sessions();
 
     @GET
     @Path("/Speakers")
+    @CacheResult(cacheName = "speakers")
     List<Speaker> speakers();
 
     default Optional<Schedule> getSchedule(final LocalDate date) {
