@@ -69,7 +69,9 @@ public class RoomsResource {
         }
 
         LocalDateTime now = LocalDateTime.now()
+                .plusHours(1)
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
+        System.out.println("now = " + now);
         for (Session session : sessions) {
             if (now.isBefore(session.endsAt())) {
                 return Templates.sessionCard(sessionizeClient.getSessionWithSpeakers(session), roomConfig);
