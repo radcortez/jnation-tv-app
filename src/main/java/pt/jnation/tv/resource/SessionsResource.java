@@ -19,6 +19,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.stream.Stream;
 
 @Path("/sessions")
 public class SessionsResource {
@@ -43,20 +44,12 @@ public class SessionsResource {
         LocalDateTime now = LocalDateTime.now()
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
 
-        System.out.println("now = " + now);
-
-        List<Session> sessions1 = sessionizeClient.getSessions();
-        System.out.println("sessions1.size() = " + sessions1.size());
-        for (Session session : sessions1) {
-            System.out.println(session);
-        }
-
-        List<Session> sessions = sessions1
+        List<Session> sessions = sessionizeClient.getSessions()
                 .stream()
                 .filter(session -> !session.speakers().isEmpty())
                 .filter(session -> session.startsAt() != null && session.endsAt() != null)
                 .filter(session -> now.isBefore(session.startsAt()))
-                .filter(session -> ChronoUnit.MINUTES.between(now, session.startsAt()) <= 30)
+                .filter(session -> ChronoUnit.MINUTES.between(now, session.startsAt()) <= 50)
                 .toList();
 
         if (sessions.isEmpty()) {
