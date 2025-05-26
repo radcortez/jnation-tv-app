@@ -19,6 +19,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.stream.Stream;
 
 @Path("/sessions")
 public class SessionsResource {
@@ -48,7 +49,7 @@ public class SessionsResource {
                 .filter(session -> !session.speakers().isEmpty())
                 .filter(session -> session.startsAt() != null && session.endsAt() != null)
                 .filter(session -> now.isBefore(session.startsAt()))
-                .filter(session -> ChronoUnit.MINUTES.between(now, session.startsAt()) <= 30)
+                .filter(session -> ChronoUnit.MINUTES.between(now, session.startsAt()) <= 50)
                 .toList();
 
         if (sessions.isEmpty()) {
