@@ -43,6 +43,7 @@ public class SessionsResource {
     public TemplateInstance get(@PathParam("date") final LocalDate date) {
         LocalDateTime now = LocalDateTime.now()
                 .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
+        System.out.println("now = " + now);
 
         List<Session> sessions = sessionizeClient.getSessions()
                 .stream()
