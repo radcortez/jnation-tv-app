@@ -1,0 +1,3113 @@
+[
+  {
+    "groupId": null,
+    "groupName": "All",
+    "sessions": [
+      {
+        "questionAnswers": [],
+        "id": "1145201",
+        "title": "You, AI, and the Future of Society",
+        "description": "The world is facing *significant* geo-polictical, social, climate change, and economic challenges.\r\n\r\nLLMs and agentic-AI have now also entered the arena. Some beleive they'll lead us to AGI and a utopia, others believe it's more like dropping a match on a bonfire of Aviation Fuel...\r\n\r\nAI agents are here, evolving fast, and poised to fundamentally reshape how we live, work, govern, and relate to one another.\r\n\r\nIn this thought-provoking keynote, we explore the deep and far-reaching consequences of LLMs and AI agentic swarms on every facet of human society.",
+        "startsAt": "2026-05-26T09:45:00",
+        "endsAt": "2026-05-26T10:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": true,
+        "speakers": [
+          {
+            "id": "5eb0d98f-b6f9-408e-a2fb-f7f1004c14cf",
+            "name": "Martijn Verburg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410296,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74644,
+        "room": "Grand Auditorium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1072996",
+        "title": "Scotty, I need Warp Speed - Ways to improve JVM startup",
+        "description": "When running Java in the cloud, the JVM startup time can become a limitation. Especially when you look at spinning up new instances of an app as response to changes in load, the warmup time can be a problem. A couple of years ago you only had CDS that could help you with the startup but meanwhile there are a couple of solutions that can help you to let you JVM start super fast. These days we have CRaC, Native Image, Leyden, InstantOn and Ready Now which are all solutions that help to reduce the startup time of a JVM. Each of those is not a Silver Bullet, so you have to choose the right solution for your problem. \r\nThis session will give you a short overview of the different solutions to increase your JVM startup performance and will try to give you some hints on how to choose the right solution for your application.",
+        "startsAt": "2026-05-26T11:00:00",
+        "endsAt": "2026-05-26T11:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "71f3abf1-03cf-458b-b385-e10fd110e89a",
+            "name": "Gerrit Grunwald"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74644,
+        "room": "Grand Auditorium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1102557",
+        "title": "How I Made Immer Twice as Fast: Performance Optimization in Practice",
+        "description": "We all want software to run fast, and \"performance\" can include everything from network times to keyboard latency. But what about when you really do need Blazing Fast (TM) CPU speed from your code?  How do you know what sections of your code are slow, _why_ it's slow, and how to make it faster?\r\n\r\nLike writing code and debugging, performance optimization is a skill set that anyone can (and should!) learn. We'll look at key concepts and approaches for profiling and optimizing CPU-level code performance, using real-world examples based on my experience optimizing the widely-used Immer JS library.  \r\n\r\nYou'll learn how to set up reliable benchmarks, capture profiles and interpret flame charts, identify hotspots in your code, and apply optimizations ranging from simple wins like local caching to larger architectural changes.  These techniques can help any developer's code run faster! ",
+        "startsAt": "2026-05-26T11:00:00",
+        "endsAt": "2026-05-26T11:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2bb96866-ad46-4413-a62e-0870ab1abc60",
+            "name": "Mark Erikson"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1110502",
+        "title": " Tour of Agent Protocols: MCP, A2A, AG-UI, A2UI",
+        "description": "There are many emerging protocols around agents. Model Context Protocol (MCP) standardizes how models and agents access external tools and resources. Agent2Agent Protocol (A2A) defines how agents running on diverse frameworks and platforms communicate. Agent to User Interface Protocol (A2UI) defines how agents generate UI and Agent-User Interaction Protocol (AG-UI) defines how agents communicate with frontends. \r\n\r\nIn this session, we’ll deep-dive into each protocol and show how they complement each other. As a bonus, we’ll also see demos on how to use these protocols in agent frameworks such as Agent Development Kit (ADK) to give you practical knowledge to start building your own interoperable agents.",
+        "startsAt": "2026-05-26T11:00:00",
+        "endsAt": "2026-05-26T11:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f79e1173-a28c-4ad1-8885-7c52ba397fe3",
+            "name": "Mete Atamel"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410292,
+                "name": "Cloud & Infrastructure"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1115333",
+        "title": "Codepocalypse Now: LangChain4j vs. Spring AI",
+        "description": "Which Java framework handles AI better: LangChain4j or Spring AI? In this live coding showdown, we’ll build a semantic code search application from scratch, putting both frameworks to the test. We’ll cover project setup, using language models, setting up a retrieval-augmented generation workflow, and creating a REST API.\r\n\r\nYou’ll see how these frameworks handle embedding generation, vector database integration, and real-world development challenges. By the end, the audience decides who wins—based on which framework gets the job done faster, better, and with less hassle (and whether the demo actually works).\r\n\r\nThis isn’t just a comparison; it’s a live experiment under pressure. Come and see which one comes out on top!",
+        "startsAt": "2026-05-26T11:00:00",
+        "endsAt": "2026-05-26T11:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4f858987-1a60-4da8-a4a2-045824a496c7",
+            "name": "Viktor Gamov"
+          },
+          {
+            "id": "1708bdeb-e8d9-4628-a147-e9878198c900",
+            "name": "Baruch Sadogursky"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1081540",
+        "title": "From Theory to Practice: Real-World Lessons in Post-Quantum Cryptography Migration",
+        "description": "Quantum computing is no longer a distant concept—it’s an imminent challenge to today’s cryptographic standards. The shift to Post-Quantum Cryptography (PQC) is not optional; it’s inevitable. Yet, the practical steps for adapting existing applications to PQC, and the critical considerations for ensuring compatibility, remain largely unclear.\r\nThis session goes beyond theory. We’ll start with a concise overview of PQC fundamentals, then dive into real-world migration experiences—what worked, what didn’t, and why. Attendees will gain actionable best practices drawn from hands-on projects, offering guidance not only for those planning future migrations but also for developers designing new applications today.\r\nIf you’ve ever wondered, “Where do I start?” or “What pitfalls should I avoid?”, this talk will provide the answers—grounded in real-world experience and focused on practical success.\r\n\r\nBy the end of this session, participants will be able to:\r\n\r\n- Understand the fundamentals of Post-Quantum Cryptography (PQC) and why early adoption is critical in the face of quantum computing threats.\r\n- Identify key challenges and pitfalls encountered during real-world PQC migration projects.\r\n- Apply proven best practices for adapting existing applications to PQC while maintaining security and performance.\r\n- Develop a practical roadmap for integrating PQC into both legacy systems and new application designs.",
+        "startsAt": "2026-05-26T11:00:00",
+        "endsAt": "2026-05-26T11:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ebbc68f8-2a9d-456c-86e1-7fa3e9a9431f",
+            "name": "Akihiro Nishikawa"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410294,
+                "name": "Security"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1209618",
+        "title": "WebAssembly and the Future of the JVM Ecosystem",
+        "description": "WebAssembly is no longer just a browser technology. It is becoming a portable, sandboxed runtime that can be embedded directly inside the JVM. This is already happening.\r\n\r\nProjects like QuickJs4J run the QuickJS engine compiled to WebAssembly inside Java applications. QuickJs4J is used inside Microcks, a CNCF project built as a Spring application, proving that this model is already production grade in cloud native environments. SQLite4J executes SQLite compiled to WebAssembly without relying on platform specific JNI binaries.\r\n\r\nThese examples demonstrate a new execution model for Java: portable native capabilities, strong isolation, and safer extensibility without classloader hacks.\r\n\r\nIn this session we explore what WebAssembly enables today for Java and Spring developers. We will look at embedding Wasm runtimes in JVM applications, compare this model with JNI and traditional scripting engines, and discuss architectural use cases such as plugin systems, policy engines, and sandboxed extensions inside Spring applications.\r\n\r\nWebAssembly is not replacing Java. It is extending it. And it is already reshaping what the JVM can safely execute.",
+        "startsAt": "2026-05-26T11:00:00",
+        "endsAt": "2026-05-26T11:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "b0873c3f-4e2e-46ed-9ce1-468a90cad819",
+            "name": "Andrea Peruffo"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1075289",
+        "title": "Bootiful Spring Boot 4",
+        "description": "Hi, Spring fans! There's never been a better time to be a JVM / Spring developer! Spring brings the worlds of security, batch processing, NoSQL and SQL data access, AI, enterprise application integration, web and microservices, gRPC, GraphQL, observability, AI, agentic systems, and so much more to your doorstep. In this talk we're going to look at some of the amazing opportunities that lay before the Spring Boot developer in 2026!\r\n",
+        "startsAt": "2026-05-26T12:10:00",
+        "endsAt": "2026-05-26T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f2617bc2-d35e-4fd7-9cea-02060f3e1608",
+            "name": "Josh Long"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410292,
+                "name": "Cloud & Infrastructure"
+              },
+              {
+                "id": 410294,
+                "name": "Security"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74644,
+        "room": "Grand Auditorium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1110446",
+        "title": "(Re)building a Framework: Lessons, Community, and Impostor Syndrome",
+        "description": "Rebuilding a popular framework is never just about the code—it is a high-stakes lesson in leadership, resilience, and architectural diplomacy. In this talk, we peel back the curtain on the reality of open-source maintenance, moving beyond the GitHub commits to the human challenges often left unspoken. We will explore how to navigate complex technical rewrites while managing community expectations, and discuss strategies to silence the loud voice of impostor syndrome that often accompanies public visibility. Attendees will leave with actionable insights on fostering healthy communities and maintaining sanity while shipping critical software.",
+        "startsAt": "2026-05-26T12:10:00",
+        "endsAt": "2026-05-26T12:35:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ae77785e-ffa7-4a75-aca0-08fd3fdde216",
+            "name": "Atila Fassina"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1116186",
+        "title": "Choose your own adventure in agentic design patterns",
+        "description": "Time to dive a little deeper, beyond the usual AI agent intros. When building your multi-agent systems, you’ll often be combining basic bricks like sequential, parallel, or loop flows. With those components, you create more complex patterns, like reflection loops, and reviewer/critique agents. \r\n\r\nHowever the path to AI-nlightment might require you to make choices with the routing pattern, or to shepherd a swarm of agents to collaborate together. And even beyond that, with MCP and A2A, you might be able to create an ecosystem of remote agents!\r\n\r\nAs a committer on both LangChain4j and ADK for Java (Agent Development Kit), it’ll be my pleasure to guide you through this agentic adventure, and help you make the right choices and use the right abstractions on your journey.\r\n",
+        "startsAt": "2026-05-26T12:10:00",
+        "endsAt": "2026-05-26T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3d928fd5-a150-48e7-a9a1-9eb523a05324",
+            "name": "Guillaume Laforge"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1115214",
+        "title": "3 years of Quarkus in production, what have we learned?",
+        "description": "Quarkus has grown in popularity in the last years, but what’s it really like to use it in large-scale, real-world business projects? In this session, we’ll move beyond the basics of \"Hello World\" to explore how to build enterprise-level applications with Quarkus efficiently. \r\nIn this talk we will set up a multi-module project, incorporating integration tests and addressing the challenges with build times, while maintaining a high development velocity. Next, we’ll tackle an upgrade scenario and splitting the application into multiple microservices. Along the way, we’ll share hard-earned lessons, including what to avoid.\r\nAt the end of the talk, you should have a good understanding of how to efficiently set up a “big” enterprise project with Quarkus and the confidence to get started.",
+        "startsAt": "2026-05-26T12:10:00",
+        "endsAt": "2026-05-26T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d8cf84f0-33d7-4e14-ab32-4305af9bf7b2",
+            "name": "Jago de Vreede"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1091685",
+        "title": "Be more productive with IntelliJ IDEA",
+        "description": "IntelliJ IDEA is designed to help developers stay in the flow while working. It has a powerful editor, refactorings, navigation, and all kinds of smart features to help you write and read code. At the same time, it is jam packed with tools professional developers need, like Maven, Gradle, Spring, Git, Databases, Test tools and more. And did I mention a fantastic debugger?\r\nIn this talk, you will see how IntelliJ IDEA supports your workflow without having to leave the IDE, and learn how you can be a happier and more productive developer.",
+        "startsAt": "2026-05-26T12:10:00",
+        "endsAt": "2026-05-26T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9f1e9a11-4022-412d-929c-d80ee4f5d19f",
+            "name": "Marit van Dijk"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1112680",
+        "title": "FinOps at scale: Lessons from scaling Kubernetes workloads",
+        "description": "As organizations scale their Kubernetes workloads, they often encounter a painful truth: without a solid FinOps strategy, cloud costs can spiral out of control. In this session, we'll explore real-world lessons from scaling Kubernetes environments, and how applying FinOps principles early can avoid firefighting later. You'll learn practical strategies for improving cost visibility, allocating expenses, optimizing resources, and creating a culture of financial accountability. Whether you're just starting with Kubernetes or managing it at scale, this talk will equip you with the tools to align technical growth with business outcomes — without blowing your cloud budget.",
+        "startsAt": "2026-05-26T12:10:00",
+        "endsAt": "2026-05-26T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "62d2894a-91fc-498d-a81e-4911563c4613",
+            "name": "Ricardo Magalhães"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410292,
+                "name": "Cloud & Infrastructure"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1084059",
+        "title": "Orchestrating payments for the millions",
+        "description": "This talk goes deep into the architecture behind monetizing a global SaaS platform at scale. I walk through the real technical decisions that support 30 million monthly active users and more than 30 million ARR, covering payment routing, pricing logic, currency handling, and operational realities across wildly different markets and regulatory environments.\r\n\r\nI break down the failure modes and edge cases that most teams hit when they scale revenue systems, and share the patterns that turned instability into predictable, observable revenue. We look at the observability stack that lets us trace payment failures end to end and resolve regional issues in minutes, the operational gains from simplifying orchestration, and the DX improvements that let us experiment aggressively without breaking revenue.\r\n\r\nWe also explore our work applying chaos engineering to monetization, intentionally injecting failures in payment gateways, currencies, and pricing resolution to validate resilience under real-world conditions.\r\n\r\nThe best part? I’ll end with a live demo of this running in production on Smallpdf, where we built and shipped our in-house reactive frontend orchestration system in React, now serving tens of millions of users worldwide.",
+        "startsAt": "2026-05-26T12:35:00",
+        "endsAt": "2026-05-26T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2111e5ee-bbfb-4778-84a2-8faff93a5583",
+            "name": "Faris Aziz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1115765",
+        "title": "When a Java Programmer Meets C",
+        "description": "For years, Java has been branded as a language that’s completely unsuitable for high-performance systems. As a programmer, you have no real control over when the GC, JIT, or JNI decide to crush your low-latency dreams. And yet, people keep trying to build databases and “close-to-the-metal” systems on top of it anyway.\r\n\r\nIn this talk, I’ll show how Java 22 finally gives us a powerful new tool: the Foreign Memory & Foreign Function API. These APIs make it possible to work with off-heap data safely (within limits—limits you define), effectively sidestepping GC pauses. Foreign Functions also let you call C code from Java without javah, JNI glue code, C compilers, or the dark arts usually required to make JNI behave.\r\n\r\nYou’ll see how these APIs bring the JVM much closer to bare metal—and why they might be the future of data-intensive systems, databases, and even ML/AI tooling. And, of course, everything will be generously seasoned with broken demos and benchmarks prepared about five minutes before the talk.",
+        "startsAt": "2026-05-26T14:00:00",
+        "endsAt": "2026-05-26T14:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7f955a81-a7f7-4285-9e47-b13b86ca90d8",
+            "name": "Jarosław Pałka"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74644,
+        "room": "Grand Auditorium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1117727",
+        "title": "How to not use AI for profit",
+        "description": "It feels like all we hear about right now is how AI can help you be 10 times faster and write the best code anyone has ever seen, so we can all become 100x engineers. I don't want that, I'm not talking about that, I wanna show you that it's not all about being the most productive programmer ever created. Let's talk about the downsides and upsides of AI in coding and how you can use it to learn, to build dumb ideas, and how to not profit from it",
+        "startsAt": "2026-05-26T14:00:00",
+        "endsAt": "2026-05-26T14:25:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cff4f3ac-ea38-401c-ac0e-175dac8abfab",
+            "name": "Sara Vieira"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1114799",
+        "title": "AI agents won’t save your productivity – human–agent collaboration will",
+        "description": "Most AI agents don’t fail dramatically—they just fade away. They’re tried a few times, maybe used in a sprint or two, and then dropped. Others become routine, but don’t actually speed up delivery, improve code quality, or reduce incidents—and sometimes add more process. Clearly, “we’re using AI” isn’t the same as “our engineering teams are shipping better and faster because of it.”\r\n\r\nThis talk highlights what most AI stories skip: focusing on real engineering pain and measuring impact across the delivery pipeline.\r\n\r\nWe’ll start by identifying concrete challenges—not cool AI demos—like slow code reviews, context switching, on-call overload, or hard-to-find documentation. Then we’ll look at designing agents and prompts tied to clear technical outcomes: reduced lead time, faster incident resolution, less toil, better developer experience, and happier customers. I’ll introduce a simple, “flight plan”–style framework any engineering org can use to track AI impact—from small experiments to rollout and long-term adoption—so you can see which agents really move the needle.\r\n\r\nYou’ll see real-world agent examples: where they made a measurable difference, removed friction, and changed workflows to unlock value. You’ll leave with a practical way to judge your own AI efforts: which engineering problems to solve first, what to measure along the SDLC, and how to keep only the agents that clearly improve outcomes—for the business and for developers writing, reviewing, and running the code.",
+        "startsAt": "2026-05-26T14:00:00",
+        "endsAt": "2026-05-26T14:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7d63385a-e91e-4983-9b08-90ced6c2a05b",
+            "name": "Sven Peters"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1074756",
+        "title": "Green Coding with Spring Boot: Sustainability as a Path to Better Software",
+        "description": "Green coding is more than just a trend – it is a promise of quality.\r\n\r\nThose who focus on resource‑efficient software naturally make better choices: more\r\nefficient code, more stable systems, and lower operating costs. This session shows how to\r\nachieve that with Spring Boot.\r\n\r\nWe focus on architectural principles and performance optimisations that save energy –\r\nwhile also making the codebase leaner, more maintainable, and more scalable. This\r\nincludes choosing the right data structures and algorithms, purposeful use of Spring Boot\r\ncomponents, and optimising servers and cloud infrastructures.\r\n\r\nFor everyone who wants to develop not only in a green way – but above all in a better way.",
+        "startsAt": "2026-05-26T14:00:00",
+        "endsAt": "2026-05-26T14:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "854f0aef-f38c-46f1-9d2c-3b1c4a58d593",
+            "name": "Patrick Baumgartner"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1111801",
+        "title": "Observability’s Sixth Sense: Detecting Anomalies in Metrics",
+        "description": "Modern systems produce more metrics than any single person can reason about. As systems grow and change, defining fixed thresholds becomes harder and unexpected behavior often appears without clearly crossing an alert boundary.\r\nThis talk looks at anomaly detection as a complementary way of working with metrics. Instead of relying on predefined limits, anomaly detection focuses on identifying behavior that deviates from what is normally observed over time.\r\nUsing a live walkthrough with real metric data, we show how anomalies can surface gradual changes, unusual patterns, and subtle shifts that are easy to miss in dashboards. The focus is on how developers can interpret these signals, where anomaly detection is useful and where it is not.\r\nThis session is exploratory and practical, aimed at developers who work with metrics and want additional ways to understand system behavior without introducing complex models or heavy tooling.",
+        "startsAt": "2026-05-26T14:00:00",
+        "endsAt": "2026-05-26T14:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f22272a3-c974-4261-9846-8ae441a9d4e5",
+            "name": "Diana Todea"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410296,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1109643",
+        "title": "ToDo: Test Driven Development and Accessibility",
+        "description": "When we talk about frontend development and particularly testing web interfaces, the question of “when should we test for accessibility (a11y) in your apps” often arises. My answer to that is quite simple - we should do it right from the start! \r\nHow? By adopting Test Driven Development (TDD) and integrating your favorite testing framework with some a11y power-ups. \r\n\r\nThis talk/workshop guides us through the creation of a _simple_ ToDo app and the challenges faced during its development.\r\n",
+        "startsAt": "2026-05-26T14:00:00",
+        "endsAt": "2026-05-26T14:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f61399b5-9787-4b97-b934-30712d768802",
+            "name": "Rita Castro"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1112275",
+        "title": "Why can't all apps be web apps?",
+        "description": "Or can they? Feast your eyes upon what's possible to do on the Web Platform right now. \r\n\r\nWould you like to live in a world where anyone can build and publish a real-time video editor, IDE or a game, all without leaving the browser? \r\n\r\nLet's explore new (or slightly forgotten) APIs, capabilities and features of the web. Can we finally rival native apps or it's just a waste of time?\r\n\r\nI'll cover PWAs, cool APIs and talk about how and why browsers work the way they do. And then maybe we'll design and build something that's \"usually native\". ",
+        "startsAt": "2026-05-26T14:25:00",
+        "endsAt": "2026-05-26T14:50:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2762145a-a334-4328-8dea-6de51f0240c0",
+            "name": "Mikhail Korolev"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1077067",
+        "title": "The Hidden Art of Thread-Safe Programming: Exploring java.util.concurrent",
+        "description": "Writing correct, thread-safe code is notoriously challenging. Unlike single-threaded code, concurrency bugs often remain hidden, waiting for the perfect storm of conditions to emerge. Even the standard Vector class, long trusted for its thread safety, harbored a race condition for 5 years, only to introduce a potential deadlock that persisted for the next 9 years.\r\n\r\nThe classes in java.util.concurrent are used in all major Java projects, either directly or indirectly. In this session, we will take a close look at some of the techniques used to create them. We will explore topics like lock striping in LongAdder, lock splitting in LinkedBlockingQueue, weakly consistent iteration in ArrayBlockingQueue, and check-then-act in CopyOnWriteArrayList. ",
+        "startsAt": "2026-05-26T15:10:00",
+        "endsAt": "2026-05-26T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "312683f6-1699-443f-b98b-c605b94e4a14",
+            "name": "Heinz Kabutz 🏝 🇬🇷 🇿🇦 ☕️"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410286,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74644,
+        "room": "Grand Auditorium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1182567",
+        "title": "The Cake Is a Lie... And So Is Your Login’s Accessibility",
+        "description": "Much like the promise of cake in Portal, login forms are everywhere in web development. While they may seem functional at first glance, many users with disabilities perceive a maze of invisible walls, from keyboard traps to inaccessible CAPTCHA. It's as if GLaDOS designed these forms herself to test us!\r\n\r\nIn this session, we will fix the accessibility problems in a real React login component. In a live demo with a screen reader, we will show how simple changes can make the user experience so much better. For example, by using ARIA tags correctly and managing focus more effectively. Let's learn about everyday (a11y) mistakes, both in the Portal game and in real life. The promise of cake may be a lie (or isn't it? 🤔), but accessibility can and should be genuine!",
+        "startsAt": "2026-05-26T15:10:00",
+        "endsAt": "2026-05-26T15:35:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f0921d74-5f78-4e55-9fd1-108d2d8867e0",
+            "name": "Ramona Schwering"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1105824",
+        "title": "A2A in 50 Minutes: Building Interoperable AI Agents",
+        "description": "Until recently, AI agents were advancing in intelligence but remained isolated. Developers attempted to make them collaborate by repurposing protocols like MCP, which connects language models to external tools and data. However, MCP was never intended for agent-to-agent communication. This gap became clear as agents grew more complex and collaboration became essential. In April, Google and its partners announced the A2A protocol, an open standard specifically designed to let agents discover each other, communicate, and collaborate across ecosystems.\r\n\r\nThis talk introduces the A2A protocol and shows how it enables agents to work together in multi-agent, multi-modal, and even long-running scenarios. We will explain its core principles, such as open standards, secure communication, and capability discovery through Agent Cards. You will also see how agents negotiate tasks, exchange context and artifacts, and coordinate their user experiences. We will highlight how A2A complements protocols like MCP by enabling agents to orchestrate one another while still using MCP internally to access tools and data.\r\n\r\nBy the end of this session, you will understand what problems A2A solves, how it fits into the broader agent ecosystem, and how it improves on previous approaches. You will leave with a clear understanding of how to design agents that can truly interoperate and contribute to the emerging Internet of Agents.",
+        "startsAt": "2026-05-26T15:10:00",
+        "endsAt": "2026-05-26T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c5cf0a05-6ba1-4239-bfd9-7f9bacfda8ac",
+            "name": "Loïc Magnette"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1123775",
+        "title": "Static You Can Maintain. Static With a Live CMS… What Is the Missing Roq?",
+        "description": "It’s a fact: generated static sites (the final HTML output) are the best option for content‑driven websites such as blogs, business and project sites, portfolios, and so on.\r\nThey are SEO‑friendly, extremely efficient, and future‑proof (especially as they’re also ideal for AI consumption).\r\n\r\nBUT when it takes two hours for a senior engineer to set up the environment for a new writer (true story), you quickly understand why WordPress became so popular.\r\n\r\nIf you’ve ever used a static site generator, think about how you felt the last time you tweaked plugins, upgraded versions, or debugged something that shouldn’t have broken in the first place.\r\nThose things are really frustrating, take this case: is your inspiration really at its best when the first step is manually creating a file on disk, with a title and a date you’re not even sure about?\r\n\r\nRoq is opening a new path for Static Site Generation, one that finally lets your stories, ideas, and concepts flow naturally.\r\nAnd yes, fun fact: it’s Java, built on Quarkus.\r\n",
+        "startsAt": "2026-05-26T15:10:00",
+        "endsAt": "2026-05-26T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "1d9f7639-107e-41b2-a0af-4cf133889644",
+            "name": "Andy Damevin"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1074037",
+        "title": "The Quantum Tech Lead: Hands-On and Abstract at the Same Time",
+        "description": "\r\nSo you got \"promoted\" to lead a team / project / whatever. What now? Do you have what it takes? It certainly seems that your hierarchy thinks so. But oftentimes things are not so black and white. Being a great plumber doesn't automatically make you a great leader of plumbers, so you need to adapt and adjust your ways of working by dropping old habits and picking up new ones. Then you start getting worried by the fact that you won't be able to have as much impact as before, since you're not coding as much as you used to in the past (and that's what you're good at, right?).\r\n\r\nWhat if leadership can amplify your technical impact instead? In this talk, I’ll share how I evolved from individual contributor to a mix of Solution Architect, Tech Lead and classical Engineering Manager at CERN - keeping my hands in the code while scaling my influence through the team that I work with. I'll be sharing best practices and adjustment techniques for you to use when faced with the difficult transition process into technical leadership. And lastly, we'll be talking about how to stay relevant even if you're not spending countless hours honing your coding skills anymore.",
+        "startsAt": "2026-05-26T15:10:00",
+        "endsAt": "2026-05-26T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "138b8553-fa98-40ec-8949-000c8c5cc83a",
+            "name": "Cristian Schuszter"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1114189",
+        "title": "DuckDB with Java: Fast OLAP Inside Your Application",
+        "description": "Learn how to run fast, reliable SQL analytics directly on files from Java — no cluster required!",
+        "startsAt": "2026-05-26T15:10:00",
+        "endsAt": "2026-05-26T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "eb90c30a-ae8e-4c91-a6fb-b5edd8b00aeb",
+            "name": "Andrei Novov"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1085897",
+        "title": "Old Dog, New Tricks: The Java 25 Reinvention",
+        "description": "Modern Java has evolved into a powerful, expressive language by quietly adopting the best ideas from its peers without compromising its core principles of readability, safety, and performance. In this talk, we'll explore how Java 25 now competes head-to-head with languages like Kotlin, Scala, Rust, and Go.\r\n\r\n- Pattern Matching that's as expressive as Scala and Rust\r\n- Virtual Threads, Java's lightweight concurrency mode, inspired by goroutines\r\n- Structured Concurrency for safer, more predictable parallel programming\r\n- Records for concise and immutable data modelling, akin to Kotlin's data classes\r\n- Foreign Function & Memory API as a modern, safer alternative to JNI, rivalling Rust’s FFI\r\n\r\nIf you’ve ever dismissed Java as too verbose or outdated, this session will change your mind. See how Java 25 isn’t just catching up; it’s redefining what modern Java can be.\r\n\r\n",
+        "startsAt": "2026-05-26T16:30:00",
+        "endsAt": "2026-05-26T17:20:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "79e95ec4-23ec-48ec-9046-98d3e1776283",
+            "name": "A N M  Bazlur Rahman"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74644,
+        "room": "Grand Auditorium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1095670",
+        "title": "Ripple: the Good Parts of React, Svelte, and Solid",
+        "description": "Throughout history, empires rise and fall. Throughout web development, frameworks rise and fall. In 2026, we are firmly in \"late stage React\", where young devs can't remember the world any other way, and older devs are keeping their eye on the horizon for what's next.\r\n\r\nWhat if I told you there was a TypeScript-first UI framework created by a member of both the React _and_ Svelte core teams focused on fine-grained reactivity and rendering speed that will look instantly familiar to you?\r\n\r\nI'd like to introduce you to Ripple, show you around its syntax and philosophy and stimulate your mind out of the Present and into the Future.",
+        "startsAt": "2026-05-26T16:30:00",
+        "endsAt": "2026-05-26T16:55:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "1bac9164-6fbc-48a1-9d0f-2f0948d8ab85",
+            "name": "Erik Rasmussen"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1110191",
+        "title": "How to build your own fun and absurd pair programmer",
+        "description": "Tired of AI assistants that are always so boring and soulless? Alexander was. So, he decided to build his own. An AI assistant with personality, flair, and a healthy dose of sarcasm. Imagine a pair programmer that offers sarcastic feedback, makes absurd suggestions, and threatens to blow up your code when it disagrees with your changes. And when things get too quiet, it might even challenge you to a game of tic-tac-toe.\r\n\r\nThis session is for anyone who believes the best way to learn new technologies is by playfully breaking them. If you’re curious about LLMs and agents beyond the typical use cases, this talk is for you. You’ll leave with practical insights into building your own agentic LLM workflows using Spring Boot, vector databases, and locally running models. Alexander will talk about Retrieval-Augmented Generation (RAG) flows that feed LLMs the right context, multi-vector search for fast context retrieval, and Model Context Protocol (MCP) integrations that let the assistant directly meddle with your file system.\r\n\r\nCome to learn, chuckle, and get inspired to create your own dysfunctional digital sidekick.",
+        "startsAt": "2026-05-26T16:30:00",
+        "endsAt": "2026-05-26T17:20:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "5841a8f0-d1c3-4814-927f-24cdd07ef6eb",
+            "name": "Alexander Chatzizacharias"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410292,
+                "name": "Cloud & Infrastructure"
+              },
+              {
+                "id": 410294,
+                "name": "Security"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1116545",
+        "title": "The Ultimate Showdown of Database Migration Tools",
+        "description": "When it comes to database migration in the Spring ecosystem, two heavyweights dominate: Liquibase and Flyway. While both tools bring unique strengths to the table, only one can claim victory in this exciting technical showdown. \r\n\r\n* Which languages support migrations, and how do the costs compare?\r\n* What features do the rollbacks offer?\r\n* What versioning schemes and strategies do they utilize?\r\n* How do their runtimes operate?\r\n\r\nNo stone left unturned! Which migration tool will reign supreme in your Spring project? Join us to learn the differences between tools and cast your vote to make the ultimate decision!",
+        "startsAt": "2026-05-26T16:30:00",
+        "endsAt": "2026-05-26T17:20:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c77a2591-3a95-4285-ab0e-c06aae180730",
+            "name": "Pasha Finkelshteyn"
+          },
+          {
+            "id": "f58eda10-92dc-41a0-ac4a-b1a9f2bd7e97",
+            "name": "Anton Arhipov"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1108936",
+        "title": "Introduction to Verifiable Credentials",
+        "description": "Verifiable Credentials is the next big thing in the digital identity security that will allow users to provide cryptographically protected, verifiable documents containing such data as driving licenses, certificates, degrees and medical reports to services that require them, restricting when necessary how much information can be provided.\r\n\r\nIn this session, Sergey Beryozkin will provide an overview of the Verifiable Credentials standardization process, explain how Verifiable Credentials are issued, presented and verified, and demonstrate how a Quarkus application can login users using an authorization code flow with an OpenId Connect provider such as Keycloak and get access to the verifiable credential.",
+        "startsAt": "2026-05-26T16:30:00",
+        "endsAt": "2026-05-26T17:20:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "42de3071-a968-4b3a-9ec5-6ae495f330bd",
+            "name": "Sergey Beryozkin"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410294,
+                "name": "Security"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1115177",
+        "title": "LiquidJava: Catch Bugs at Compile Time with Liquid Types",
+        "description": "What if your compiler could catch that `height = -5` is invalid, or that you are trying to `write` into a closed `Writer` before your code runs? LiquidJava extends Java's type system with refinement types, letting you express constraints like \"this int must be positive\" or \"cannot call write after close\" directly in your code. The compiler then proves your program respects these constraints, eliminating entire classes of bugs. These are simple examples, but the same approach has been used to verify cryptographic protocols and catch security vulnerabilities. In this talk, we'll demo LiquidJava live, showing how a research prototype from academia can make your everyday Java code more reliable.",
+        "startsAt": "2026-05-26T16:30:00",
+        "endsAt": "2026-05-26T16:55:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9c57735e-8977-4abb-a6f3-990d70e19f7c",
+            "name": "Catarina Ventura Gamboa"
+          },
+          {
+            "id": "840aa1ef-98c3-4b6f-98f6-10ac8cedca31",
+            "name": "Ricardo Costa"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410287,
+                "name": "Beginner"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1113496",
+        "title": "From 3000ms to 300ms: Lessons learned from optimizing Tanstack Start app",
+        "description": "No one enjoys slow apps. But when you vibe code an app, LLMs often get the job done of writing code. They don't write optimized code nor even think about performance. This is what I learned when building Images AI.\r\nJoin this talk to learn how I optimized a vibe coded app, and improved the overall performance of the app. This includes improving the LCP, TTFB, and even query optimization. ",
+        "startsAt": "2026-05-26T16:55:00",
+        "endsAt": "2026-05-26T17:20:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cb92a050-af56-4a59-a1d6-b1d078bc5360",
+            "name": "Harshil Agrawal"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1144582",
+        "title": "Why did I break production? Is AI the sickness or the cure?",
+        "description": "You spent hours on code review and static code analysis and STILL broke production. It happens to the best software developers, despite their best efforts. But were you looking in the right places, using the right set of tools, and making the most out of your tools? You even used an AI agent to help you program... In fact did it help, or make it worse?\r\n\r\nIn this talk, we will discuss why breaking production is still a problem today, despite the rise of AI and so many developer tools. What are some best practices to help improve the software development workflow and reduce rework? Join us for a live coding session with some real-life examples of different scenarios of how vulnerabilities, legacy code, bugs, or even human errors were responsible for breaking production and could have easily been avoided. What part AI plays nowadays. And the big question -- are code quality tools still relevant?",
+        "startsAt": "2026-05-26T16:55:00",
+        "endsAt": "2026-05-26T17:20:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d844624e-4bc6-4916-92bb-2ab6a67483c3",
+            "name": "Luis Ventura"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410294,
+                "name": "Security"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1076168",
+        "title": "Micro Frontends & me, a love story",
+        "description": "I always thought Micro-frontends were stupid, unproven tech, and a fad. After speaking with industry leaders on my podcast about how they implemented it at scale, I realized that it might actually solve some issues we are having in our company. \r\n\r\nThis talk focuses on the journey of implementing micro-frontends, from trade-offs, implementation, and choosing the right tools for the job. ",
+        "startsAt": "2026-05-26T17:40:00",
+        "endsAt": "2026-05-26T18:05:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d1265137-7eaf-4b1d-b3d8-b40bc122aed1",
+            "name": "Dan Neciu"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1087402",
+        "title": "Understanding Prompt Injection - Techniques, Challenges, and Advanced Escalation",
+        "description": "As developers, we’re embracing AI and large language models (LLMs) in our applications more than ever. However, there’s an increasing concern we need to be aware of: prompt injection. This sneaky attack can undermine our AI systems by manipulating the input to produce unintended outputs.\r\n\r\nIn this session, we’ll explain prompt injection and examine some common techniques attackers use, such as instruction overrides and hidden prompts. But we won't stop there; we’ll also explore advanced challenges, including escalation techniques that can exacerbate the risks.\r\n\r\nMost importantly, we won’t just identify the problem. We’ll dive into practical steps you can take to mitigate these risks and keep your AI interactions secure. Join us to gain insights that will help you stay ahead in AI security and ensure your applications remain robust against these emerging threats.",
+        "startsAt": "2026-05-26T17:40:00",
+        "endsAt": "2026-05-26T18:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "50e931e4-bda7-4065-b4c4-5083683497e6",
+            "name": "Brian Vermeer"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410294,
+                "name": "Security"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1097120",
+        "title": "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches",
+        "description": "\r\nFeature flags have revolutionized the software delivery lifecycle, enabling teams to decouple releases from deployments and create a more agile development process. They're often hailed as one of the key practices in modern software development—at least in theory.\r\n\r\nHowever, as systems grow in complexity, so do the challenges associated with feature flagging. From supporting multiple languages and managing targeted evaluations to avoiding vendor lock-in and safely decommissioning obsolete code, what initially seems like a straightforward problem can quickly become daunting.\r\n\r\nThe OpenFeature community is tackling these challenges head-on by providing vendor-agnostic SDKs and a suite of powerful tools designed to simplify the feature flagging experience. Join me as we explore the common pitfalls of feature flagging and discover how OpenFeature can help bring the fun back into this critical aspect of software development - sprinkled with production insights from Dynatrace along the way.",
+        "startsAt": "2026-05-26T17:40:00",
+        "endsAt": "2026-05-26T18:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "5260003f-39d6-48ac-8ec9-a49197f3c691",
+            "name": "Simon Schrottner"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410292,
+                "name": "Cloud & Infrastructure"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1086451",
+        "title": "Snake in 10 Lines: Learning More by Coding Less",
+        "description": "Can you create a complete game with just 10 lines of code? That was the quest I set myself when recreating the classic game Snake in as few lines as possible. Let me tell you: I was not ready for the types of challenges I would face. For example, just registering button presses was not as straightforward as I had hoped.\r\n\r\nThrough live coding, I will show you how I overcame these obstacles and distilled Snake to its absolute essence. What key elements make this game instantly recognizable? By combining Kotlin and Swing, we will end up with a minimal code base and if not award-winning, at least a playable version of Snake.\r\n\r\nStriving for conciseness led me to a deeper understanding of the code. I will show how constraints push us to think outside the box and lead to more creative solutions. Moreover, my approach can be applied to any problem. Sometimes the best way to understand code is by seeing how little of it you actually need!",
+        "startsAt": "2026-05-26T17:40:00",
+        "endsAt": "2026-05-26T18:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "073dc086-a6c0-4564-a5de-d8157c669370",
+            "name": "Guus de Wit"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410305,
+                "name": "Session (50 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1089513",
+        "title": "Stacktraces, Sourcemaps & Everything In Between",
+        "description": "Modern JavaScript tooling promises fast builds and great DX—but when something breaks in production, all that abstraction suddenly matters. In this talk, we’ll dive deep into what sourcemaps actually are, why Debug IDs exist, and how today’s bundlers—like Turbopack—produce the data we rely on to make sense of errors. We’ll walk through the full journey of a stacktrace, explore what symbolication means, and highlight the challenges that arise when trying to deliver accurate, reliable debugging across modern web architectures. If you’ve ever wondered why your stacktraces sometimes look cursed… this talk explains the magic (and the mess) behind the scenes.",
+        "startsAt": "2026-05-26T18:05:00",
+        "endsAt": "2026-05-26T18:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "6d218586-e9fe-4ff9-859f-a5dcc90f2e61",
+            "name": "Charly Gomez"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410286,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410308,
+                "name": "Quickie (25 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74645,
+        "room": "Old Church",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1099020",
+        "title": "Zero to C-speed with only Java",
+        "description": "This hands-on workshop teaches you how to build the fastest and safest Java bindings. Using Project Panama’s Foreign Function & Memory API, you’ll create high-performance bindings for C libraries without JNI, focusing on real performance concerns like memory layouts, lifetimes, and eliminating abstraction overhead. You’ll build and benchmark bindings that approach C in performance, learn how to validate results with JMH and profiling tools, and understand when Panama is the right tool and when it isn’t.",
+        "startsAt": "2026-05-27T09:30:00",
+        "endsAt": "2026-05-27T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7322a2c2-cb56-498f-9988-0b68e746a3a6",
+            "name": "David Vlijmincx"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1113527",
+        "title": "RoboCoders: Judgment Day: AI-Assisted Engineering Applied - The Battle of Agents",
+        "description": "Agentic AI-assisted engineering tools promise cleaner code, faster development, and fewer late-night debugging sessions. But do they truly deliver?\r\n\r\nIn this live showdown, Viktor and Baruch will each use a different set of cutting-edge AI coding tools, like an IDEs and CLI agents (we'd name them, but honestly, things move too fast in this space), to develop a non-trivial IoT application, from initial setup to testing and debugging, all live on stage.\r\n\r\nWill the IoT bulb turn on by the end of the session, and which tool will make it happen? You don't know, we don't know, but we'll find out together—live on stage.\r\n\r\nYou, the audience, decide which tool actually improves quality and productivity and which just adds noise instead of useful code. Bring your skepticism, cast your vote, and get ready for surprises.",
+        "startsAt": "2026-05-27T09:30:00",
+        "endsAt": "2026-05-27T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "1708bdeb-e8d9-4628-a147-e9878198c900",
+            "name": "Baruch Sadogursky"
+          },
+          {
+            "id": "4f858987-1a60-4da8-a4a2-045824a496c7",
+            "name": "Viktor Gamov"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410307,
+                "name": "Deep Dive (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1074751",
+        "title": "Building Modular Monoliths with Spring Modulith",
+        "description": "For years, monolithic applications have been the standard approach for building software. While they offer simplicity, they often become difficult to maintain as they grow. Microservices emerged as an alternative to address these challenges but introduced their own complexities in deployment, communication, and data consistency.\r\n\r\nA Modular Monolith provides a middle ground, combining the structured modularity of microservices with the simplicity and efficiency of a monolith. With Spring Modulith, Spring Boot applications can be designed with clear module boundaries, enforced architectural constraints, and well-defined communication patterns.",
+        "startsAt": "2026-05-27T09:30:00",
+        "endsAt": "2026-05-27T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "854f0aef-f38c-46f1-9d2c-3b1c4a58d593",
+            "name": "Patrick Baumgartner"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410300,
+                "name": "Methodologies"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1073926",
+        "title": "Spring AI Agents: From Demo to Production",
+        "description": "Building a chatbot is easy. Building an AI-driven service you’d actually trust in production is something else entirely.\r\n\r\nIn this session, I’ll show a real journey - from a simple Spring AI prototype to a production-ready agent that can call internal APIs, use tools, follow rules, and stay under control. \r\n\r\nNo magic. Just Spring Boot, Spring AI, the Model Context Protocol (MCP), a bit of discipline and a lot of safety checks.\r\n\r\nWe’ll talk about what actually matters when AI leaves the demo stage:\r\n• how to stop agents from hallucinating with real systems,\r\n• how to log and trace every decision they make,\r\n• when to allow automated actions and when to force human approval,\r\n• how to recover when tools fail, time out or respond with junk.\r\n\r\nLive code. Clear architecture diagrams. Honest lessons learned.\r\n\r\nBy the end, you’ll know how to take an AI agent from \"cool demo\" to \"yes, we can deploy this\".",
+        "startsAt": "2026-05-27T09:30:00",
+        "endsAt": "2026-05-27T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "30920fde-c51d-4203-bb03-ec37ea56fe48",
+            "name": "Mihaela Gheorghe-Roman"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410307,
+                "name": "Deep Dive (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1141584",
+        "title": "AI Enhanced Fullstack Development",
+        "description": "A hands-on 3-hour workshop where participants build a complete SaaS application from scratch and integrate AI-powered features using the AI SDK. Beyond just coding, we'll supercharge developer productivity by setting up AI assistants with custom Skills, AGENTS.md, and SKILLS.md configurations. Participants will leave with a working app, AI-enhanced search functionality using Postgres, and a development environment that writes code alongside them.",
+        "startsAt": "2026-05-27T09:30:00",
+        "endsAt": "2026-05-27T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ae77785e-ffa7-4a75-aca0-08fd3fdde216",
+            "name": "Atila Fassina"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74650,
+        "room": "Aeminium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1118181",
+        "title": "Java Flight Recorder for Low-Latency Systems: A Hands-On Workshop",
+        "description": "GC pauses are killing your latency, but JFR recordings look like noise. Where do you start?\r\n\r\nThis hands-on workshop will teach you to read JFR recordings like a pro. We'll use TradeStreamEE, an open-source high-throughput trading simulation (100K msg/sec), to generate real GC stress patterns: promotion storms, heap fragmentation, burst events, and cross-generational reference pressure.\r\n\r\nYou'll run the application locally, generate JFR recordings under different stress scenarios, and learn to identify exactly what's causing your pauses. We'll add custom JFR events to correlate application behavior with GC events, build custom dashboards in JDK Mission Control, and compare different garbage collectors side-by-side.\r\n\r\nYou'll leave with a runnable benchmarking framework, pre-recorded JFR files from all scenarios, and a mental model for diagnosing GC issues in your own applications.\r\n\r\nTakeaways:\r\n- TradeStreamEE code and Docker setup\r\n- Pre-recorded JFR files from all scenarios\r\n- JFR analysis checklist and reference guide\r\n- Custom event templates for your own applications",
+        "startsAt": "2026-05-27T14:00:00",
+        "endsAt": "2026-05-27T17:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "7541ace6-84f7-4410-8f81-826928bd201e",
+            "name": "Luqman Saeed"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410289,
+                "name": "Java & JVM"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74647,
+        "room": "Almedina",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1150878",
+        "title": "From LLM orchestration to autonomous agents: Agentic AI patterns with LangChain4j",
+        "description": "The last few months have seen the rapid evolution of LLMs from passive completion engines, only good for generic chatbots, to components of a more complex, programmatically defined, workflow and finally into active and autonomous elements capable of reasoning, planning, and taking actions.\r\n\r\nBut moving from basic prompt engineering to truly autonomous systems requires a new class of design patterns and possibly a framework allowing to implement those patterns and put them at work in a convenient and effortless way.\r\n\r\nIn this workshop, we will explore the architecture and implementation of agentic AI using LangChain4j, a Java-native framework for building LLM-powered applications. \r\n\r\nYou’ll learn how to move beyond the plain usage of a standalone LLM to design intelligent, modular agents capable of dynamic decision-making, memory retention, tool usage, RAG, MCP and A2A integration and multi-step goal execution.\r\n\r\nAfter having covered the core concepts of agentic AI, we will guide you in incrementally building and testing an agentic system from scratch using LangChain4j and Quarkus, backed by real-world examples and live coding. Whether you're exploring agentic AI for task automation, intelligent assistants, or decision-support systems, this session will give you the practical tools and architectural understanding to build robust and maintainable autonomous agents in Java.",
+        "startsAt": "2026-05-27T14:00:00",
+        "endsAt": "2026-05-27T17:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "978108ae-f221-417a-9576-32c3b05c270b",
+            "name": "Mario Fusco"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74646,
+        "room": "Mondego",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1114943",
+        "title": "Prepare Your Next Spring Boot Migration",
+        "description": "Spring Boot 4 is here—but most organizations still run 2.x or 3.x across large, distributed codebases. Version drift happens, and it compounds over time. The good news: whether your next upgrade is 2.x → 3.5 or 3.5 → 4.1, the preparation steps are the same—and they’re the key to making any migration predictable and low-risk.\r\n\r\nBut Spring Boot 4 doesn’t travel alone. It brings Hibernate 7, Jakarta EE 11, Spring Security 7, and Java 17+ along for the ride. When you map out these dependencies, you start to see a metro map of interconnected upgrades—and suddenly it clicks why migrations require a coordinated, organization-wide approach rather than isolated team efforts. The same pattern applies to other large-scale changes on the horizon, like preparing for Post-Quantum Cryptography.\r\n\r\nIn this hands-on workshop, you’ll work with a realistic microservices environment: 8 interconnected Spring Boot services spanning older versions, shared libraries, and legacy dependencies. Using OpenRewrite—an open-source auto-refactoring tool—you’ll learn the staged workflow that platform teams use to prepare for major migrations.\r\n",
+        "startsAt": "2026-05-27T14:00:00",
+        "endsAt": "2026-05-27T17:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "5d9d810e-d48f-4b00-a883-5d4e44626925",
+            "name": "Merlin Bögershausen"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410292,
+                "name": "Cloud & Infrastructure"
+              },
+              {
+                "id": 410299,
+                "name": "Tooling"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74648,
+        "room": "Sofia",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1106108",
+        "title": "Architecting Intelligent Enterprise Systems: From scratch",
+        "description": "Moving beyond simple chatbots requires a deep understanding of how to architect secure, scalable, and autonomous AI systems. This hands-on workshop transforms developers into AI architects. We will start by deconstructing the mechanics of Vectors and Embeddings, move into building RAG pipelines, and then evolve our systems into autonomous Agents using the Model Context Protocol (MCP).\r\n\r\nCrucially, we will cover the \"Day 2\" operations of AI: implementing Security Guardrails to prevent prompt injection and data leakage, and adhering to Enterprise Best Practices for production deployment.\r\n\r\nModule 1: The Physics of AI – Vectors & Embeddings\r\nModule 2: Advanced RAG (Retrieval-Augmented Generation)\r\nModule 3: Tools & The Model Context Protocol (MCP)\r\nModule 4: From Chatbots to Agents\r\nModule 5: Security & Guardrails\r\nModule 6: Enterprise Best Practices & Production",
+        "startsAt": "2026-05-27T14:00:00",
+        "endsAt": "2026-05-27T17:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4e0f1b70-c9ff-4351-b21e-eee43fdd44df",
+            "name": "Shaaf Syed"
+          },
+          {
+            "id": "79e95ec4-23ec-48ec-9046-98d3e1776283",
+            "name": "A N M  Bazlur Rahman"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410288,
+                "name": "All"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410297,
+                "name": "Artificial Intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410307,
+                "name": "Deep Dive (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74649,
+        "room": "Conventual",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      },
+      {
+        "questionAnswers": [],
+        "id": "1109588",
+        "title": "Real-World React: Designing Frontend Architectures That Survive Production",
+        "description": "Most React workshops focus on building features. This one focuses on keeping them alive.\r\n\r\nIn production, React applications fail in ways that local environments never show: partial outages, slow dependencies, silent errors, broken rollouts, and performance regressions that only appear under real traffic. This workshop is a practical, architecture-first walkthrough of how experienced teams design React systems that stay resilient, observable, and scalable long after the first release.\r\n\r\nWe will explore how component architecture, reconciliation in practice, and runtime failure patterns shape performance and operability far more than memoization tricks or framework features. Using React and Next.js as shared reference points, we will work through concrete patterns for failure recovery, error containment, safe rollouts, and post-deployment confidence.\r\n\r\nThis is a hands-on, experience-driven workshop based on real production constraints, tradeoffs, and lessons learned from operating large React applications at scale.\r\n\r\nAttendees will leave with a mental model for building frontend systems that can fail safely, recover quickly, and ship continuously without fear.\r\n\r\nMost of the workshop is framework and library-agnostic, but we'll use React and Next.js as our common ground for communication and examples.\r\n\r\nThis is not an exhaustive masterclass; it's a conversation starter and experience share to jumpstart your journey toward battle-tested software architecture.",
+        "startsAt": "2026-05-27T14:00:00",
+        "endsAt": "2026-05-27T17:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2111e5ee-bbfb-4778-84a2-8faff93a5583",
+            "name": "Faris Aziz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 114115,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 410285,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 114116,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 410290,
+                "name": "JavaScript & TypeScript"
+              },
+              {
+                "id": 410301,
+                "name": "Architectures"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 114119,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 410306,
+                "name": "Workshop (180 minutes)"
+              }
+            ],
+            "sort": 3
+          }
+        ],
+        "roomId": 74650,
+        "room": "Aeminium",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted",
+        "isInformed": true,
+        "isConfirmed": true
+      }
+    ],
+    "isDefault": false
+  }
+]

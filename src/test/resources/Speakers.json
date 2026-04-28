@@ -1,0 +1,957 @@
+[
+  {
+    "id": "79e95ec4-23ec-48ec-9046-98d3e1776283",
+    "firstName": "A N M  Bazlur",
+    "lastName": "Rahman",
+    "fullName": "A N M  Bazlur Rahman",
+    "bio": "A N M Bazlur Rahman is a Software Engineer with over a decade of specialized experience in Java and related technologies. His expertise has been formally recognized through the prestigious title of Java Champion. Beyond his professional commitments, Mr. Rahman is deeply involved in community outreach and education. He is the founder and current moderator of the Java User Group in Bangladesh, where he has organized educational meetups and conferences since 2013.\r\n\r\nIn the past two years, Mr. Rahman has been an active speaker at various international conferences and Java user groups. His talks have often focused on specialized topics such as concurrency and virtual threads. In addition to his community work, Mr. Rahman also serves as an editor for Java Queue at InfoQ and Foojay.io, both of which are leading platforms for technology content. Notably, he has authored five books on the Java programming language in Bengali, three of which have become best sellers in Bangladesh. \r\n\r\nHe is currently writing a new book with O'Reilly titled \"Modern Concurrency in Java\". \r\nhttps://learning.oreilly.com/library/view/modern-concurrency-in/9781098165406/\r\n\r\n",
+    "tagLine": "Java Champion 🏆 Empowering Developers through Speaking 🗣️ Writing ✍️ Mentoring 🤝 & Community Building 🌍 Published Author 📖 Contributing Editor at InfoQ and Foojay.IO",
+    "profilePicture": "https://sessionize.com/image/0687-400o400o1-PCRYuFMHgcQ6w6Sgab3W6h.jpg",
+    "sessions": [
+      {
+        "id": 1085897,
+        "name": "Old Dog, New Tricks: The Java 25 Reinvention"
+      },
+      {
+        "id": 1106108,
+        "name": "Architecting Intelligent Enterprise Systems: From scratch"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "ebbc68f8-2a9d-456c-86e1-7fa3e9a9431f",
+    "firstName": "Akihiro",
+    "lastName": "Nishikawa",
+    "fullName": "Akihiro Nishikawa",
+    "bio": "Aki loves A JVM/GraalVM and JVM based open-source technologies, and also a board member of JJUG (Japan Java Users Group). As a Cloud Solution Architect in Microsoft, he has been helping customers solve their technical challenges with his expertise in application development (containers, PaaS, DevOps, and so on) and application integration (iPaaS such as system/business process orchestration, API management, and EDI).",
+    "tagLine": "Cloud Solution Architect, Microsoft",
+    "profilePicture": "https://sessionize.com/image/ac12-400o400o1-DSwzTFGYKzfKw2AEojTFeS.jpg",
+    "sessions": [
+      {
+        "id": 1081540,
+        "name": "From Theory to Practice: Real-World Lessons in Post-Quantum Cryptography Migration"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "5841a8f0-d1c3-4814-927f-24cdd07ef6eb",
+    "firstName": "Alexander",
+    "lastName": "Chatzizacharias",
+    "fullName": "Alexander Chatzizacharias",
+    "bio": "Alexander, a 35-year-old Software Engineer at JDriven, holds dual Dutch and Greek nationality. He earned his master’s degree in Game Studies from the University of Amsterdam, where he discovered his passion for gamification and software engineering. Alexander aims to bridge the gap between game development and software engineering, believing that both industries have much to learn from each other. He is dedicated to integrating technologies and methodologies from both fields. Additionally, he enjoys experimenting with new technologies and cutting-edge sdk's.",
+    "tagLine": "Software Engineer, jDriven",
+    "profilePicture": "https://sessionize.com/image/9aae-400o400o1-SpjpnnVporqnqG57YS4KB6.jpg",
+    "sessions": [
+      {
+        "id": 1110191,
+        "name": "How to build your own fun and absurd pair programmer"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "b0873c3f-4e2e-46ed-9ce1-468a90cad819",
+    "firstName": "Andrea",
+    "lastName": "Peruffo",
+    "fullName": "Andrea Peruffo",
+    "bio": "With nearly two decades of coding experience, I'm fueled by passion as I continue to type away daily.\r\nAs a Principal Software Engineer at Red Hat, I actively contribute to diverse Open Source projects, driven by both personal fulfillment and professional advancement. My not-so-secret passion lies in programming languages, developer tools, compilers, and beyond. Come and spot me on a project near you!\r\n",
+    "tagLine": "Principal Software Engineer",
+    "profilePicture": "https://sessionize.com/image/ad94-400o400o1-EUM8DNn6C1CHht2uKTPknF.jpg",
+    "sessions": [
+      {
+        "id": 1209618,
+        "name": "WebAssembly and the Future of the JVM Ecosystem"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "eb90c30a-ae8e-4c91-a6fb-b5edd8b00aeb",
+    "firstName": "Andrei",
+    "lastName": "Novov",
+    "fullName": "Andrei Novov",
+    "bio": "Senior Java Developer, 8+ years overall experience, 5 years in the banking sector, based in Lisbon.",
+    "tagLine": "BNP Paribas",
+    "profilePicture": "https://sessionize.com/image/ccd8-400o400o1-VqcWDoaAxUJ5JozU9e8V7q.png",
+    "sessions": [
+      {
+        "id": 1114189,
+        "name": "DuckDB with Java: Fast OLAP Inside Your Application"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "1d9f7639-107e-41b2-a0af-4cf133889644",
+    "firstName": "Andy",
+    "lastName": "Damevin",
+    "fullName": "Andy Damevin",
+    "bio": "Andy Damevin is a seasoned Java expert who is enthusiastic about the Quarkus project. As a member of the core Quarkus team since v1, he contributes to one of the industry's most innovative open-source Java projects designed for optimal cloud performance.\r\n\r\nAs a lead of the Quarkus Web story, Andy is pushing to make Quarkus one of the best FullStack/Web frameworks on the market. His background in Java and his interest in UI development allow him to bring a unique perspective to his work. He created well-known tools for Quarkus, such as code.quarkus.io, Quinoa, Web Bundler, and Roq.\r\n\r\nAlso a member of the Quarkus DevTools team, Andy is dedicated to providing developers with an exceptional experience using Quarkus and its vast extension ecosystem. \r\n",
+    "tagLine": "Lead of the Quarkus Web story -- Creator of Roq SSG -- IBM",
+    "profilePicture": "https://sessionize.com/image/e2b9-400o400o1-9QcRcPL6iXvVVCoAjVyAGf.jpg",
+    "sessions": [
+      {
+        "id": 1123775,
+        "name": "Static You Can Maintain. Static With a Live CMS… What Is the Missing Roq?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f58eda10-92dc-41a0-ac4a-b1a9f2bd7e97",
+    "firstName": "Anton",
+    "lastName": "Arhipov",
+    "fullName": "Anton Arhipov",
+    "bio": "Anton is a Developer Advocate at JetBrains, working with Kotlin, IntelliJ IDEA, and AI-driven developer tools. With a background in server-side development, he has spent over a decade building software for developers. A Java Champion since 2014, Anton speaks at conferences, shares insights on the Kotlin YouTube channel, and enjoys exploring new ideas in programming languages, AI-powered tooling, and developer workflows. He’s always experimenting with new tech, looking for ways to make coding more efficient and enjoyable.",
+    "tagLine": "Developer Advocate, JetBrains",
+    "profilePicture": "https://sessionize.com/image/706d-400o400o1-DetNfUC6HLw7aZZrgSVsoK.jpg",
+    "sessions": [
+      {
+        "id": 1116545,
+        "name": "The Ultimate Showdown of Database Migration Tools"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "ae77785e-ffa7-4a75-aca0-08fd3fdde216",
+    "firstName": "Atila",
+    "lastName": "Fassina",
+    "fullName": "Atila Fassina",
+    "bio": "Currently working at Databricks Apps, Atila is a member of SolidJS team, SolidStart maintainer. He's been working with the web for over 10 years with multiple stacks and creating content either at speaking conferences, publishing youtube videos, or writing articles.",
+    "tagLine": "Databricks and SolidJS",
+    "profilePicture": "https://sessionize.com/image/42d5-400o400o1-e3Qp5Fcmntz7EojiguuK4.png",
+    "sessions": [
+      {
+        "id": 1110446,
+        "name": "(Re)building a Framework: Lessons, Community, and Impostor Syndrome"
+      },
+      {
+        "id": 1141584,
+        "name": "AI Enhanced Fullstack Development"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "1708bdeb-e8d9-4628-a147-e9878198c900",
+    "firstName": "Baruch",
+    "lastName": "Sadogursky",
+    "fullName": "Baruch Sadogursky",
+    "bio": "Baruch Sadogursky (@jbaruch) did Java before it had generics, DevOps before there was Docker, and DevRel before it had a name. He started DevRel at JFrog when it was ten people and took it all the way to a successful $6B IPO by helping engineers solve problems. Now, Baruch keeps helping engineers solve problems, but also helps companies help engineers solve problems. He is a co-author of the \"Liquid Software\" and \"DevOps Tools for Java Developers\" books, Java Champion and CNCF Ambassador alumni, serves on multiple conference program committees, and regularly speaks at numerous most prestigious industry conferences, such as DevNexus, DevOpsDays, Voxxed Days, Devoxx, DevRelCon, Kubecon and QCon. Today, he's a part of DevRel team in Tessl, helping AI agents to serve developers better.",
+    "tagLine": "DevRel, Tessl AI",
+    "profilePicture": "https://sessionize.com/image/6857-400o400o1-JXocy3YoRTEqmNrjJd2d7Y.png",
+    "sessions": [
+      {
+        "id": 1115333,
+        "name": "Codepocalypse Now: LangChain4j vs. Spring AI"
+      },
+      {
+        "id": 1113527,
+        "name": "RoboCoders: Judgment Day: AI-Assisted Engineering Applied - The Battle of Agents"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "50e931e4-bda7-4065-b4c4-5083683497e6",
+    "firstName": "Brian",
+    "lastName": "Vermeer",
+    "fullName": "Brian Vermeer",
+    "bio": "Staff Developer Advocate for Snyk, Java Champion, Oracle Ace Pro, and Software Engineer with over a decade of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is a JUG leader for the Virtual JUG and the NLJUG. He also co-leads the DevSecCon community and is a community manager for Foojay. He is a regular international speaker on mostly Java-related conferences like JavaOne, Devnexus, Devoxx, Jfokus, JavaZone and many more. Besides all that, Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher.",
+    "tagLine": "Java Champion | Staff Developer Advocate @ Snyk",
+    "profilePicture": "https://sessionize.com/image/7d2b-400o400o1-Ge2dwJQMkdufQ8RkLK6atF.jpg",
+    "sessions": [
+      {
+        "id": 1087402,
+        "name": "Understanding Prompt Injection - Techniques, Challenges, and Advanced Escalation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "9c57735e-8977-4abb-a6f3-990d70e19f7c",
+    "firstName": "Catarina",
+    "lastName": "Ventura Gamboa",
+    "fullName": "Catarina Ventura Gamboa",
+    "bio": "Catarina Gamboa is a PhD Researcher at Carnegie Mellon University and University of Lisbon, where she works on making software verification practical for everyday developers. She created LiquidJava, a tool that extends Java's type system to catch more bugs at compile time, and has published her work at top software engineering and programming languages venues including ICSE and PLDI. During her PhD, she has interned at Uber Technologies building AI-powered developer tools, and at Gitar.ai working on static analysis. When not trying to make compilers smarter, she plays concert flute in folk and classical groups.",
+    "tagLine": "PhD Researcher @ CMU & University of Lisbon",
+    "profilePicture": "https://sessionize.com/image/22a3-400o400o1-3yQpt5dCkbW7tGhR58GKk4.jpg",
+    "sessions": [
+      {
+        "id": 1115177,
+        "name": "LiquidJava: Catch Bugs at Compile Time with Liquid Types"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "6d218586-e9fe-4ff9-859f-a5dcc90f2e61",
+    "firstName": "Charly",
+    "lastName": "Gomez",
+    "fullName": "Charly Gomez",
+    "bio": "Charly Gomez joined Sentry in 2024 as a Software Engineer.\r\n\r\nHe builds, breaks, fixes and maintains Sentry's JavaScript SDKs out of the city of Vienna, while having also lived several years in Spain and Italy.\r\n\r\nCharly enjoys salsa dancing, and plays a host of sports, including sailing, padel, cycling, football and is a CrossFit enthusiast.",
+    "tagLine": "Software Engineer @Sentry",
+    "profilePicture": "https://sessionize.com/image/7bbb-400o400o1-3FxoA2pgrJU6V8t1q8V75a.jpg",
+    "sessions": [
+      {
+        "id": 1089513,
+        "name": "Stacktraces, Sourcemaps & Everything In Between"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "138b8553-fa98-40ec-8949-000c8c5cc83a",
+    "firstName": "Cristian",
+    "lastName": "Schuszter",
+    "fullName": "Cristian Schuszter",
+    "bio": "Dr. Cristian Schuszter holds a PhD in Systems Engineering with a focus on distributed fault-tolerant software architectures and machine-learning based failure prediction. In his day-to-day, he is somewhere between a Data and Full-stack Software Engineer, with a wide range of tech & job exposure both in academia and industry. \r\n\r\nFor the past 7 years he's been working with various teams in CERN (the European Organization for Nuclear Research). Currently he's focusing on the architectural directions of the CERN business computing group, with an emphasis on enterprise Java systems and UI. ",
+    "tagLine": "Staff Software Engineer at CERN",
+    "profilePicture": "https://sessionize.com/image/e69f-400o400o1-K9XHeQM4J5TeYYhM8k3Y5b.jpg",
+    "sessions": [
+      {
+        "id": 1074037,
+        "name": "The Quantum Tech Lead: Hands-On and Abstract at the Same Time"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "d1265137-7eaf-4b1d-b3d8-b40bc122aed1",
+    "firstName": "Dan",
+    "lastName": "Neciu",
+    "fullName": "Dan Neciu",
+    "bio": "I am a software engineer, focusing mostly on the Front-end, in a love-love relationship with Javascript. I worked professionally on all Big Three Frameworks (But secretly I love React the most, please don't tell my Vue-on-all-projects company)\r\n\r\nI am forever trying to strike a balance between my desire to ship stunning UI and bringing fast and great value from a Product perspective but also trying to merge the cleanest, easily maintainable code I can possibly write.",
+    "tagLine": "Software Engineer & Tech Founder @ CareerOS",
+    "profilePicture": "https://sessionize.com/image/0648-400o400o1-M1yjgF7K4273Yw4Ebu2Emm.png",
+    "sessions": [
+      {
+        "id": 1076168,
+        "name": "Micro Frontends & me, a love story"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "7322a2c2-cb56-498f-9988-0b68e746a3a6",
+    "firstName": "David",
+    "lastName": "Vlijmincx",
+    "fullName": "David Vlijmincx",
+    "bio": "I’m a software developer who loves to use and find new techniques and pragmatically apply them. ",
+    "tagLine": "Java Developer",
+    "profilePicture": "https://sessionize.com/image/3826-400o400o1-Ls9rYnjEeAYE6qJBt5v3F9.jpg",
+    "sessions": [
+      {
+        "id": 1099020,
+        "name": "Zero to C-speed with only Java"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f22272a3-c974-4261-9846-8ae441a9d4e5",
+    "firstName": "Diana",
+    "lastName": "Todea",
+    "fullName": "Diana Todea",
+    "bio": "Diana is a Developer Experience Engineer at VictoriaMetrics. She has worked as a Senior Site Reliability Engineer focused on Observability. She is an active member of the OpenTelemetry CNCF open source project, co-organizer of Cloud Native Days Romania, co-lead of neurodiversity working group (part of CNCF initiative merge-forward) and supports underrepresented groups in tech. ",
+    "tagLine": "Developer Experience Engineer",
+    "profilePicture": "https://sessionize.com/image/d002-400o400o1-KQjdDWkYh1uokyFLHBMSSw.jpg",
+    "sessions": [
+      {
+        "id": 1111801,
+        "name": "Observability’s Sixth Sense: Detecting Anomalies in Metrics"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "1bac9164-6fbc-48a1-9d0f-2f0948d8ab85",
+    "firstName": "Erik",
+    "lastName": "Rasmussen",
+    "fullName": "Erik Rasmussen",
+    "bio": "American expat living in Spain, author of Redux Form, Final Form, and currently building the best CRM in the world at Attio.",
+    "tagLine": "American TypeScript Slinger living in Spain 🇪🇸",
+    "profilePicture": "https://sessionize.com/image/b2cc-400o400o1-UPehMHdMzxriMTEFsA3EaP.jpg",
+    "sessions": [
+      {
+        "id": 1095670,
+        "name": "Ripple: the Good Parts of React, Svelte, and Solid"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "2111e5ee-bbfb-4778-84a2-8faff93a5583",
+    "firstName": "Faris",
+    "lastName": "Aziz",
+    "fullName": "Faris Aziz",
+    "bio": "Faris Aziz is an experienced engineer, international conference speaker, and workshop instructor specializing in React, Next.js, web architecture, and resilient system design. He has a deep passion for startups, having worked in early-stage companies ranging from founding teams to organizations scaling from 1 to 100 people. His expertise spans engineering leadership, building career ladders from scratch, and managing teams of over 10 engineers.\r\n\r\nAs a front-end subject matter expert, Faris has contributed to creating systems used by millions of users worldwide. His work has ranged from building greenfield projects from the ground up to maintaining and scaling decade-old products. His experience covers industries like Connected TV, Fintech, SaaS, and Fitness, working with companies such as Smallpdf, Fiit, Discovery, GCN, Eurosport, and Navro (formerly Paytrix).\r\n\r\nFaris’s specialization lies in building user-centric, performant, and maintainable applications. He has a particular interest in observability and monitoring, ensuring that systems are not only robust but also easy to troubleshoot and optimize. His passion extends to sharing knowledge, organizing the Zurich.js meetup in Switzerland, and speaking at international conferences about web development, engineering leadership, and creating scalable systems.\r\n\r\nIn his free time, Faris enjoys contributing to web development tools like Raycast and spending time contemplating life’s great questions, like why the build works on his machine but nowhere else.",
+    "tagLine": "Staff Software Engineer",
+    "profilePicture": "https://sessionize.com/image/c2b0-400o400o1-Tp4ZfjFUBMgJVTUccr1mpZ.jpg",
+    "sessions": [
+      {
+        "id": 1084059,
+        "name": "Orchestrating payments for the millions"
+      },
+      {
+        "id": 1109588,
+        "name": "Real-World React: Designing Frontend Architectures That Survive Production"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "71f3abf1-03cf-458b-b385-e10fd110e89a",
+    "firstName": "Gerrit",
+    "lastName": "Grunwald",
+    "fullName": "Gerrit Grunwald",
+    "bio": "Gerrit Grunwald is a software engineer that loves coding for around 40 years already. He is a true believer in open source and he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines.",
+    "tagLine": "Senior Developer Advocate at Azul Systems",
+    "profilePicture": "https://sessionize.com/image/f7ac-400o400o1-DZYSvNYq2n8gn4Qzy9FnQs.png",
+    "sessions": [
+      {
+        "id": 1072996,
+        "name": "Scotty, I need Warp Speed - Ways to improve JVM startup"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "3d928fd5-a150-48e7-a9a1-9eb523a05324",
+    "firstName": "Guillaume",
+    "lastName": "Laforge",
+    "fullName": "Guillaume Laforge",
+    "bio": "Guillaume Laforge is Developer Advocate for Google Cloud Platform, at day, focusing on generative AI, LLMs, serverless technologies and event-driven architecture, and at night, he is a Java Champion and wears his Apache Groovy hat.",
+    "tagLine": "Developer Advocate for Google Cloud",
+    "profilePicture": "https://sessionize.com/image/fb06-400o400o1-fSRwGcHtCkofFUHFCxSFr1.jpg",
+    "sessions": [
+      {
+        "id": 1116186,
+        "name": "Choose your own adventure in agentic design patterns"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "073dc086-a6c0-4564-a5de-d8157c669370",
+    "firstName": "Guus",
+    "lastName": "de Wit",
+    "fullName": "Guus de Wit",
+    "bio": "Guus is a Java/Kotlin developer at adesso Netherlands. With a passion for puzzles and a background in science, he strives for elegant solutions to complex problems. In his spare time, he likes to over-optimize the simple tasks of today, to hopefully live a lazy life tomorrow",
+    "tagLine": "Software developer at adesso Netherlands",
+    "profilePicture": "https://sessionize.com/image/f107-400o400o1-pucLUF4wSvBEY97XrzJpRd.jpg",
+    "sessions": [
+      {
+        "id": 1086451,
+        "name": "Snake in 10 Lines: Learning More by Coding Less"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "cb92a050-af56-4a59-a1d6-b1d078bc5360",
+    "firstName": "Harshil",
+    "lastName": "Agrawal",
+    "fullName": "Harshil Agrawal",
+    "bio": "Working in the Developer Relations team at Cloudflare, Harshil enjoys sharing his learnings with the community. A JavaScript developer, open-source contributor, and a low-code enthusiast, Harshil loves experimenting with tech and building small projects.",
+    "tagLine": "Developer Advocate @Cloudflare",
+    "profilePicture": "https://sessionize.com/image/d2ec-400o400o1-wpAQP819mScSiQa7xdcf8u.jpg",
+    "sessions": [
+      {
+        "id": 1113496,
+        "name": "From 3000ms to 300ms: Lessons learned from optimizing Tanstack Start app"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "312683f6-1699-443f-b98b-c605b94e4a14",
+    "firstName": "Heinz",
+    "lastName": "Kabutz 🏝 🇬🇷 🇿🇦 ☕️",
+    "fullName": "Heinz Kabutz 🏝 🇬🇷 🇿🇦 ☕️",
+    "bio": "Heinz is the author of The Java Specialists’ Newsletter (https://www.javaspecialists.eu), a publication enjoyed by tens of thousands of Java experts in over 150 countries.",
+    "tagLine": "JavaSpecialists.eu",
+    "profilePicture": "https://sessionize.com/image/7e6c-400o400o1-9XFusWB9t45GFy9kAVf3Vu.jpg",
+    "sessions": [
+      {
+        "id": 1077067,
+        "name": "The Hidden Art of Thread-Safe Programming: Exploring java.util.concurrent"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "d8cf84f0-33d7-4e14-ab32-4305af9bf7b2",
+    "firstName": "Jago",
+    "lastName": "de Vreede",
+    "fullName": "Jago de Vreede",
+    "bio": "Jago is a full-stack software engineer at TenneT, as a software engineer he has seen a broad-spectrum of projects. He also likes to take Java to the extreme and do things with are normally not done with Java, like playing an automated guitar. He is passionate about his work and likes to share his knowledge and has therefore spoken at conferences worldwide.",
+    "tagLine": "Developer at TenneT",
+    "profilePicture": "https://sessionize.com/image/7894-400o400o1-Q6XzGFQ7Bh6jeWT94RMjjc.jpg",
+    "sessions": [
+      {
+        "id": 1115214,
+        "name": "3 years of Quarkus in production, what have we learned?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "7f955a81-a7f7-4285-9e47-b13b86ca90d8",
+    "firstName": "Jarosław",
+    "lastName": "Pałka",
+    "fullName": "Jarosław Pałka",
+    "bio": "For more than 20 years in the IT industry, as a database administrator, programmer,\r\narchitect, manager and \"onsite disaster engineer\".\r\nI took part in small,medium and nonsensically large projects carried out\r\naccording to the rules \"Waterfall\", Agile and in the absence of any methodologies,\r\nwith the same always effect. Which led me to the conclusion that it doesn't\r\nmatter what you do as long as you do it in the simplest possible way and use\r\nthe right tools to do the work for you.\r\nRecently I spend too much time exploring JVM's best kept secrets, reading about \r\nmanaged runtimes, parsers and interpreters.\r\nFrom time to time you can hear my low-quality jokes about\r\narchitecture at conferences in Poland.\r\nI am also author of a blog on http://geekyprimitives.com/, \r\none of the founders of SegFault conferences brand (https://segfault.events) and full time benchmarking\r\ninfrastructure engineer at Neo4j.",
+    "tagLine": "staff software engineer\\team lead\\benchmarking infrastructure at Neo4j",
+    "profilePicture": "https://sessionize.com/image/9226-400o400o1-QDAxYAFJV1tiiD9FJQmuv4.jpg",
+    "sessions": [
+      {
+        "id": 1115765,
+        "name": "When a Java Programmer Meets C"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f2617bc2-d35e-4fd7-9cea-02060f3e1608",
+    "firstName": "Josh",
+    "lastName": "Long",
+    "fullName": "Josh Long",
+    "bio": "Josh (@starbuxman) has been the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 7 books (including \"Reactive Spring\") and numerous best-selling video training (including \"Building Microservices with Spring Boot Livelessons\" with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Axon, Spring Cloud, Activiti, Vaadin, etc), a Youtuber (Coffee + Software with Josh Long as well as my Spring Tips series ), and a podcaster (\"A Bootiful Podcast\").",
+    "tagLine": "Spring Developer Advocate",
+    "profilePicture": "https://sessionize.com/image/3758-400o400o1-PYPL3oD3Fr4Wk9CNPLnBQo.jpg",
+    "sessions": [
+      {
+        "id": 1075289,
+        "name": "Bootiful Spring Boot 4"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "c5cf0a05-6ba1-4239-bfd9-7f9bacfda8ac",
+    "firstName": "Loïc",
+    "lastName": "Magnette",
+    "fullName": "Loïc Magnette",
+    "bio": "Loïc Magnette is a seasoned software developer with a strong background in consulting. Currently a senior developer at Oniryx, he specializes in Java and Angular, delivering innovative solutions and sharing his knowledge as a speaker. As a co-organizer of the Belgian Java User Group (BeJUG), he fosters connections within the developer community. Outside of tech, Loïc’s passion for wildlife inspires his work and creativity.",
+    "tagLine": "Senior Developer @ Oniryx",
+    "profilePicture": "https://sessionize.com/image/771b-400o400o1-E3VF7kGU5AS5jk6v3vGVjn.jpg",
+    "sessions": [
+      {
+        "id": 1105824,
+        "name": "A2A in 50 Minutes: Building Interoperable AI Agents"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "d844624e-4bc6-4916-92bb-2ab6a67483c3",
+    "firstName": "Luis",
+    "lastName": "Ventura",
+    "fullName": "Luis Ventura",
+    "bio": "Luis Ventura has been a Software engineer for 8 years. He has started his career developing with Java, starting in the dark days before frameworks like Quarkus we're the norm. He has recently transitioned to a Product Engineer role where he gets to explore new technologies every day, and occasionally travel to brag about the cool things his Engineering squads have built",
+    "tagLine": "Product Engineer @ Codacy",
+    "profilePicture": "https://sessionize.com/image/eda0-400o400o1-GmSTZGMmDaV4uSQL8T1xWL.jpg",
+    "sessions": [
+      {
+        "id": 1144582,
+        "name": "Why did I break production? Is AI the sickness or the cure?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "7541ace6-84f7-4410-8f81-826928bd201e",
+    "firstName": "Luqman",
+    "lastName": "Saeed",
+    "fullName": "Luqman Saeed",
+    "bio": "Senior Java developer and technical content creator with 7+ years building enterprise applications using Jakarta EE, Spring Boot, and Quarkus. Author of two Apress books on cloud-native Java development. Created 11 Udemy courses including the platform's largest Jakarta EE course with 20,000+ students. Conference speaker at JavaLand, JDD Poland, and Eclipse Foundation events. Currently driving developer adoption at Payara through documentation, webinars, and community engagement.",
+    "tagLine": "Payara Services Ltd - Technical Writer",
+    "profilePicture": "https://sessionize.com/image/4f21-400o400o1-HusrXiSTf9tYtj6VUKBJR6.jpg",
+    "sessions": [
+      {
+        "id": 1118181,
+        "name": "Java Flight Recorder for Low-Latency Systems: A Hands-On Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "978108ae-f221-417a-9576-32c3b05c270b",
+    "firstName": "Mario",
+    "lastName": "Fusco",
+    "fullName": "Mario Fusco",
+    "bio": "Mario is a senior principal software engineer at IBM working as Drools project lead. Among his interests there are also high performance systems and generative AI, being an active contributor of widely adopted projects like Quarkus and LangChain4j. He is also a Java Champion, the JUG Milano coordinator, a frequent speaker and the co-author of \"Modern Java in Action\" published by Manning.",
+    "tagLine": "IBM",
+    "profilePicture": "https://sessionize.com/image/c305-400o400o1-XYTbiTY4uwNjWPTxyNHymx.jpg",
+    "sessions": [
+      {
+        "id": 1150878,
+        "name": "From LLM orchestration to autonomous agents: Agentic AI patterns with LangChain4j"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "9f1e9a11-4022-412d-929c-d80ee4f5d19f",
+    "firstName": "Marit",
+    "lastName": "van Dijk",
+    "fullName": "Marit van Dijk",
+    "bio": "With over 20 years of diverse experience across various roles and companies, Marit is passionate about building awesome software in collaboration with amazing people, and making developers’ lives better.\r\nShe is committed to continuous learning and actively shares her expertise in programming, software development, testing, and test automation. Marit regularly presents at international conferences, participates in webinars, and appears on podcasts. Additionally, she writes blog posts and tutorials, creates videos, and is a contributor to the book \"97 Things Every Java Programmer Should Know\" (O’Reilly Media).",
+    "tagLine": "Software Developer | Java Champion | Developer Advocate at JetBrains",
+    "profilePicture": "https://sessionize.com/image/5d45-400o400o1-JcrQ5g7Mqd1XRmiaW7xmQf.jpg",
+    "sessions": [
+      {
+        "id": 1091685,
+        "name": "Be more productive with IntelliJ IDEA"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "2bb96866-ad46-4413-a62e-0870ab1abc60",
+    "firstName": "Mark",
+    "lastName": "Erikson",
+    "fullName": "Mark Erikson",
+    "bio": "Mark Erikson is a Senior Front-End Engineer at Replay, and lives in southwest Ohio, USA.  Mark is a Redux maintainer, creator of Redux Toolkit, and general keeper of the Redux docs.  He tweets at @acemarke, and blogs at https://blog.isquaredsoftware.com. He spends much of his time answering questions about React and Redux anywhere there's a comment box on the internet, and usually hangs out in the Reactiflux chat channels.",
+    "tagLine": "Senior Front-End Engineer at Replay.io",
+    "profilePicture": "https://sessionize.com/image/900e-400o400o1-Pw1w4p9kFEtQ51oshda83X.jpg",
+    "sessions": [
+      {
+        "id": 1102557,
+        "name": "How I Made Immer Twice as Fast: Performance Optimization in Practice"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "5eb0d98f-b6f9-408e-a2fb-f7f1004c14cf",
+    "firstName": "Martijn",
+    "lastName": "Verburg",
+    "fullName": "Martijn Verburg",
+    "bio": "Formerly the Diabolical Developer but am now much reformed :-).",
+    "tagLine": "Principal Group SWE Manager (Java & Golang) at Microsoft",
+    "profilePicture": "https://sessionize.com/image/b2c9-400o400o1-6bVQkzVN5og3sSfcqr7ED.png",
+    "sessions": [
+      {
+        "id": 1145201,
+        "name": "You, AI, and the Future of Society"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "5d9d810e-d48f-4b00-a883-5d4e44626925",
+    "firstName": "Merlin",
+    "lastName": "Bögershausen",
+    "fullName": "Merlin Bögershausen",
+    "bio": "Merlin is a software engineer, architect and Oracle ACE with over 10 years of experience in various domains and languages. As a migration engineer, he helps teams and individuals utilize new features and assists with migration. In addition to development, speaking at conferences and being a dad, he teaches people how to land gliders (yes, I'm a flight instructor!) and plays volleyball.",
+    "tagLine": "Software Architect and Engineer - Oracle ACE",
+    "profilePicture": "https://sessionize.com/image/12fe-400o400o1-rnz14vqFsXEE2PXTgm7wff.jpg",
+    "sessions": [
+      {
+        "id": 1114943,
+        "name": "Prepare Your Next Spring Boot Migration"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f79e1173-a28c-4ad1-8885-7c52ba397fe3",
+    "firstName": "Mete",
+    "lastName": "Atamel",
+    "fullName": "Mete Atamel",
+    "bio": "I’m a Software Engineer and a Developer Advocate at Google in London. I build tools, demos, tutorials, and give talks to educate and help developers to be successful on Google Cloud.",
+    "tagLine": "Software Engineer and Developer Advocate at Google",
+    "profilePicture": "https://sessionize.com/image/e0a2-400o400o1-73-a28c-4ad1-8885-7c52ba397fe3.2e3567c5-b2c6-4a8c-a297-74a96a80b2df.jpg",
+    "sessions": [
+      {
+        "id": 1110502,
+        "name": " Tour of Agent Protocols: MCP, A2A, AG-UI, A2UI"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "30920fde-c51d-4203-bb03-ec37ea56fe48",
+    "firstName": "Mihaela",
+    "lastName": "Gheorghe-Roman",
+    "fullName": "Mihaela Gheorghe-Roman",
+    "bio": "Mihaela is a Software Architect at Systematic, Romania, and an Oracle ACE Associate for Java. Ph.D in artificial neural network algorithms, Assistant Professor at the University of Cybernetics and Informatics in Bucharest, she is a dedicated lead developer and architect who enjoys sharing her knowledge. \r\n\r\nIn her professional career, spanning over 14+ years, she worked for telecom and defence domains with a focus on Java, Spring Boot, C, C#, Scala and Angular.\r\n\r\nApart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "tagLine": "Experienced Software Architect at Systematic",
+    "profilePicture": "https://sessionize.com/image/571f-400o400o1-D9aqNoDzsdwToRtjXni6AY.png",
+    "sessions": [
+      {
+        "id": 1073926,
+        "name": "Spring AI Agents: From Demo to Production"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "2762145a-a334-4328-8dea-6de51f0240c0",
+    "firstName": "Mikhail",
+    "lastName": "Korolev",
+    "fullName": "Mikhail Korolev",
+    "bio": "Software engineer of over 10 years, currently occupied with all the things about front-end infrastructure and developer happiness. Talk to me about the Web Platform, browser guts and specialty coffee!",
+    "tagLine": "Senior Engineer / Developer Experience @ Toptal",
+    "profilePicture": "https://sessionize.com/image/eb5d-400o400o1-a2Mry183UYspWUKGWsJi5A.jpg",
+    "sessions": [
+      {
+        "id": 1112275,
+        "name": "Why can't all apps be web apps?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "c77a2591-3a95-4285-ab0e-c06aae180730",
+    "firstName": "Pasha",
+    "lastName": "Finkelshteyn",
+    "fullName": "Pasha Finkelshteyn",
+    "bio": "Years of experience in software engineering and the team's leading roles combined with his passion for Java made Pasha know all the hidden details in this IT niche. As a Developer Advocate for @Bellsoft, he educates the public on the latest software tools built by BellSoft and helps to create and test instruments for developers. He writes in Kotlin, speaks at conferences, composes a new articles, or maintains his pet projects.",
+    "tagLine": "Developer Advocate, BellSoft",
+    "profilePicture": "https://sessionize.com/image/1c41-400o400o1-YpEZkvAnYbV1h9XVjxMMjD.jpg",
+    "sessions": [
+      {
+        "id": 1116545,
+        "name": "The Ultimate Showdown of Database Migration Tools"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "854f0aef-f38c-46f1-9d2c-3b1c4a58d593",
+    "firstName": "Patrick",
+    "lastName": "Baumgartner",
+    "fullName": "Patrick Baumgartner",
+    "bio": "Patrick Baumgartner is a Java Champion, passionate software crafter, and technical agile coach at 42talents. He helps teams build elegant, simple, and robust solutions, specializing in cloud software with Java, the Spring ecosystem, and other open-source technologies.\r\n\r\nPatrick is an active member of the Software Craft, Java, and Agile communities in Switzerland. As a trainer and coach, he focuses on making a real impact by sharing knowledge, experimenting, and fostering continuous improvement. He enjoys learning with and from others.",
+    "tagLine": "Software Crafter @ 42talents",
+    "profilePicture": "https://sessionize.com/image/1d9f-400o400o1-RrURZVaRSiydVXHyA4yjBv.jpg",
+    "sessions": [
+      {
+        "id": 1074756,
+        "name": "Green Coding with Spring Boot: Sustainability as a Path to Better Software"
+      },
+      {
+        "id": 1074751,
+        "name": "Building Modular Monoliths with Spring Modulith"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f0921d74-5f78-4e55-9fd1-108d2d8867e0",
+    "firstName": "Ramona",
+    "lastName": "Schwering",
+    "fullName": "Ramona Schwering",
+    "bio": "Ramona is a developer advocate and software engineer with roots in quality assurance. She owns both views of the product - that of a tester and a developer. Ramona primarily uses this to strengthen trust in test automation and support the testers and developers alike, becoming a Google Developer Expert in Web Technologies, Women Techmaker Ambassador, and Cypress ambassador. ",
+    "tagLine": "Developer Advocate @Auth0",
+    "profilePicture": "https://sessionize.com/image/4fa1-400o400o1-D86MS3X7GQ7TDbRDfvmBAv.jpg",
+    "sessions": [
+      {
+        "id": 1182567,
+        "name": "The Cake Is a Lie... And So Is Your Login’s Accessibility"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "840aa1ef-98c3-4b6f-98f6-10ac8cedca31",
+    "firstName": "Ricardo",
+    "lastName": "Costa",
+    "fullName": "Ricardo Costa",
+    "bio": "Software engineering student focused on programming languages and static analysis currently working on LiquidJava, a type checker for Java that provides stronger compile-time guarantees using liquid types and type states.",
+    "tagLine": "MSc Student @ University of Lisbon",
+    "profilePicture": "https://sessionize.com/image/5e89-400o400o1-NDX8SWuctvpTSrPkpfvctt.jpg",
+    "sessions": [
+      {
+        "id": 1115177,
+        "name": "LiquidJava: Catch Bugs at Compile Time with Liquid Types"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "62d2894a-91fc-498d-a81e-4911563c4613",
+    "firstName": "Ricardo",
+    "lastName": "Magalhães",
+    "fullName": "Ricardo Magalhães",
+    "bio": "Ricardo Magalhães is a DevOps Engineer at xgeeks. He is responsible for driving the infrastructure for one of the top automotive companies in today's world. Always striving for bigger and better, Ricardo has an unmatched will to take projects to the next level and of course, make a great story along the way. Because everything is better with a good story.",
+    "tagLine": "DevOps Engineer @ xgeeks",
+    "profilePicture": "https://sessionize.com/image/5cd4-400o400o1-EWa7FkRKM3jQadZWEKamiU.jpg",
+    "sessions": [
+      {
+        "id": 1112680,
+        "name": "FinOps at scale: Lessons from scaling Kubernetes workloads"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f61399b5-9787-4b97-b934-30712d768802",
+    "firstName": "Rita",
+    "lastName": "Castro",
+    "fullName": "Rita Castro",
+    "bio": "Software Engineer that used to build stand alone applications for data processing and mission planning systems turned into a Full-Stack Developer working with Test Driven Development, XP and Pair Programming.\r\nAlso a Mom.",
+    "tagLine": "Software Developer",
+    "profilePicture": "https://sessionize.com/image/ff33-400o400o1-V4TpDVWTNpdrWCNcn4GzTQ.png",
+    "sessions": [
+      {
+        "id": 1109643,
+        "name": "ToDo: Test Driven Development and Accessibility"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "cff4f3ac-ea38-401c-ac0e-175dac8abfab",
+    "firstName": "Sara",
+    "lastName": "Vieira",
+    "fullName": "Sara Vieira",
+    "bio": "Engineer at geosurge. Retro game enthusiast. I know way too much about airports ",
+    "tagLine": "Engineer at geosurge. All around nerd.",
+    "profilePicture": "https://sessionize.com/image/7023-400o400o1-ac-ea38-401c-ac0e-175dac8abfab.f0d59561-41fc-4c39-8cae-df5b8ca96c73.jpg",
+    "sessions": [
+      {
+        "id": 1117727,
+        "name": "How to not use AI for profit"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "42de3071-a968-4b3a-9ec5-6ae495f330bd",
+    "firstName": "Sergey",
+    "lastName": "Beryozkin",
+    "fullName": "Sergey Beryozkin",
+    "bio": "Sergey Beryozkin is a member of the Quarkus Security team. His primary expertise is in OpenId Connect and JSON Web Token (JWT) security. He was an Apache Software Foundation (ASF) CXF JAX-RS (Java API for RESTful Web Services) implementation and security support project lead for many years. He is interested in how distributed systems can interoperate at scale and still remembers about Corba. He has lived in Dublin, Ireland for more than a quarter of a century, is an aspiring cyclist, a keen walker and club chess player.",
+    "tagLine": "Software Engineer, IBM",
+    "profilePicture": "https://sessionize.com/image/6d45-400o400o1-pUu3CQw6McWBq3SWH2xHjT.png",
+    "sessions": [
+      {
+        "id": 1108936,
+        "name": "Introduction to Verifiable Credentials"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "4e0f1b70-c9ff-4351-b21e-eee43fdd44df",
+    "firstName": "Shaaf",
+    "lastName": "Syed",
+    "fullName": "Shaaf Syed",
+    "bio": "Shaaf Syed is a seasoned Java developer, AI enthusiast, and advocate in the developer community. With deep expertise in Quarkus, Jakarta EE, and modern cloud-native Java, he has helped drive innovation in AI-powered applications, particularly focusing on Retrieval-Augmented Generation (RAG), vector databases, and knowledge graph integrations. Shaaf regularly speaks at major conferences and meetups, sharing practical insights on Java, AI, and application modernization. Passionate about open source and developer education, he mentors and writes technical content.",
+    "tagLine": "Developer Advocate",
+    "profilePicture": "https://sessionize.com/image/d9c8-400o400o1-6ArZFyv3mA5k9YRmXMASM.jpg",
+    "sessions": [
+      {
+        "id": 1106108,
+        "name": "Architecting Intelligent Enterprise Systems: From scratch"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "5260003f-39d6-48ac-8ec9-a49197f3c691",
+    "firstName": "Simon",
+    "lastName": "Schrottner",
+    "fullName": "Simon Schrottner",
+    "bio": "Simon Schrottner is an open source enthusiast and software engineer currently working at Dynatrace.\r\n\r\nHe’s deeply involved with OpenFeature, contributing to its growth in the open source community while also driving its internal adoption at Dynatrace.\r\n\r\nThough Simon’s roots lie in the Java ecosystem, his current work spans multiple languages – including Golang, Java, JavaScript, and more recently, Python – to support OpenFeature across a broad tech stack.\r\n\r\nDeveloper experience is a major motivator for him: he’s passionate about empowering others to thrive and succeed. His open source journey began with contributions to developer tooling like JUnit, JUnit Pioneer, and Sonar, always with the goal of making everyday work a little easier for fellow developers.\r\n\r\nOutside of coding, Simon is an avid adventurer – often found climbing or hiking. He’s also a strong supporter of community-driven hospitality platforms like Couchsurfing and Warmshowers.",
+    "tagLine": "CNCF Ambassador | Senior Software Engineer & Team Captain @Dynatrace",
+    "profilePicture": "https://sessionize.com/image/06e4-400o400o1-9hSBkMtrhK2Vb4YrQYq5iE.jpg",
+    "sessions": [
+      {
+        "id": 1097120,
+        "name": "Fun with Flags: How OpenFeature Solves Your Feature Flag Headaches"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "7d63385a-e91e-4983-9b08-90ced6c2a05b",
+    "firstName": "Sven",
+    "lastName": "Peters",
+    "fullName": "Sven Peters",
+    "bio": "Sven Peters, AI evangelist at Atlassian, has been studying trends in software development for the last 15 years, uncovering the cultural and technical attributes to help development teams work effectively and drive innovation. He has 20 years of experience in writing code, leading teams, and sharing his experience with thousands of developers at countless conferences in 25+ countries.",
+    "tagLine": "AI Evangelist at Atlassian",
+    "profilePicture": "https://sessionize.com/image/4719-400o400o1-YTQSQaAujMKrP5NhJbWeDM.png",
+    "sessions": [
+      {
+        "id": 1114799,
+        "name": "AI agents won’t save your productivity – human–agent collaboration will"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "4f858987-1a60-4da8-a4a2-045824a496c7",
+    "firstName": "Viktor",
+    "lastName": "Gamov",
+    "fullName": "Viktor Gamov",
+    "bio": "Viktor Gamov is a Principal Developer Advocate at Confluent, founded by the original creators of Apache Kafka®. With a rich background in implementing and advocating for distributed systems and cloud-native architectures, Viktor excels in open-source technologies. He is passionate about assisting architects, developers, and operators in crafting systems that are not only low in latency and scalable but also highly available.\r\nAs a Java Champion and an esteemed speaker, Viktor is known for his insightful presentations at top industry events like JavaOne, Devoxx, Kafka Summit, and QCon. His expertise spans distributed systems, real-time data streaming, JVM, and DevOps.\r\nViktor has co-authored \"Enterprise Web Development\" from O'Reilly and \"Apache Kafka® in Action\" from Manning. \r\nFollow Viktor on X—@gamussa to stay updated with his latest thoughts on technology, his gym and food adventures, and insights into open-source and developer advocacy.",
+    "tagLine": "Principal Developer Advocate, Confluent",
+    "profilePicture": "https://sessionize.com/image/a33e-400o400o1-4tarbgjGLvhbrmqBfujkT8.jpg",
+    "sessions": [
+      {
+        "id": 1115333,
+        "name": "Codepocalypse Now: LangChain4j vs. Spring AI"
+      },
+      {
+        "id": 1113527,
+        "name": "RoboCoders: Judgment Day: AI-Assisted Engineering Applied - The Battle of Agents"
+      }
+    ],
+    "isTopSpeaker": true,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  }
+]
