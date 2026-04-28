@@ -45,9 +45,21 @@ public class RoomsResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get(@PathParam("name") final String name, @PathParam("date") final LocalDate date) {
-        Optional<Schedule> schedule = sessionizeClient.getSchedule(date);
+        LocalDateTime now = LocalDateTime.now()
+                .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
+        SessionResponse session = getSession(name, now);
+        if (session.hasSession()) {
+            RoomConfig roomConfig = appConfig.findRoom(name);
+            return Templates.sessionCard(session.getSession(), roomConfig);
+        } else {
+            return ErrorTemplate.error(session.getError());
+        }
+    }
+
+    SessionResponse getSession(final String name, final LocalDateTime now) {
+        Optional<Schedule> schedule = sessionizeClient.getSchedule(now.toLocalDate());
         if (schedule.isEmpty()) {
-            return ErrorTemplate.error("Schedule Not Found!");
+            return SessionResponse.error("Schedule Not Found!");
         }
 
         RoomConfig roomConfig = appConfig.findRoom(name);
@@ -56,7 +68,7 @@ public class RoomsResource {
                 .filter(r -> roomConfig.name().equals(r.name()))
                 .findFirst();
         if (room.isEmpty()) {
-            return ErrorTemplate.error("Room Not Found!");
+            return SessionResponse.error("Room Not Found!");
         }
 
         List<Session> sessions = room.get().sessions()
@@ -65,25 +77,51 @@ public class RoomsResource {
                 .sorted(Comparator.comparing(Session::startsAt))
                 .toList();
         if (sessions.isEmpty()) {
-            return ErrorTemplate.error("Sessions Not Found!");
+            return SessionResponse.error("Sessions Not Found!");
         }
 
-        LocalDateTime now = LocalDateTime.now()
-                .plusHours(1)
-                .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
-        System.out.println("now = " + now);
         for (Session session : sessions) {
             if (now.isBefore(session.endsAt())) {
-                return Templates.sessionCard(sessionizeClient.getSessionWithSpeakers(session), roomConfig);
+                return SessionResponse.ok(sessionizeClient.getSessionWithSpeakers(session));
             }
         }
 
-        return ErrorTemplate.error("No more Sessions for Today!");
+        return SessionResponse.error("No more Sessions for Today!");
     }
 
     @CheckedTemplate
     public static class Templates {
         @Location("session-card.html")
         public static native TemplateInstance sessionCard(Session session, RoomConfig roomConfig);
+    }
+
+    public static class SessionResponse {
+        private final Session session;
+        private final String error;
+
+        SessionResponse(Session session, String error) {
+            this.session = session;
+            this.error = error;
+        }
+
+        boolean hasSession() {
+            return session != null;
+        }
+
+        public Session getSession() {
+            return session;
+        }
+
+        public String getError() {
+            return error;
+        }
+
+        static SessionResponse ok(Session session) {
+            return new SessionResponse(session, null);
+        }
+
+        static SessionResponse error(String error) {
+            return new SessionResponse(null, error);
+        }
     }
 }
