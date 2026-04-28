@@ -13,9 +13,11 @@ public record Session(
         List<Category> categories,
         LocalDateTime startsAt,
         LocalDateTime endsAt,
+        boolean isPlenumSession,
+        boolean isServiceSession,
         List<Speaker> speakers) {
 
-    public Session(String id, String room, RoomCssColor roomCssColor, String title, String description, List<Category> categories, LocalDateTime startsAt, LocalDateTime endsAt, List<Speaker> speakers) {
+    public Session(String id, String room, RoomCssColor roomCssColor, String title, String description, List<Category> categories, LocalDateTime startsAt, LocalDateTime endsAt, boolean isPlenumSession, boolean isServiceSession, List<Speaker> speakers) {
         this.id = id;
         this.room = room;
         this.roomCssColor = Optional.ofNullable(roomCssColor).orElse(new RoomCssColor());
@@ -24,6 +26,8 @@ public record Session(
         this.categories = categories;
         this.startsAt = startsAt;
         this.endsAt = endsAt;
+        this.isPlenumSession = isPlenumSession;
+        this.isServiceSession = isServiceSession;
         this.speakers = speakers;
     }
 

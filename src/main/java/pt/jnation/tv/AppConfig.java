@@ -2,20 +2,17 @@ package pt.jnation.tv;
 
 import io.smallrye.config.ConfigMapping;
 import io.smallrye.config.WithDefault;
-import io.smallrye.config.WithDefaults;
 
 import java.net.URI;
 import java.net.URL;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 @ConfigMapping(prefix = "jnation.tv")
 public interface AppConfig {
-    @WithDefaults
-    Map<String, RoomConfig> rooms();
+    List<RoomConfig> rooms();
 
     @WithDefault("https://jnation.pt")
     List<URI> media();
@@ -27,22 +24,22 @@ public interface AppConfig {
     Duration interval();
 
     interface RoomConfig {
-        @WithDefault("White")
         String name();
 
-        @WithDefault("white")
+        String color();
+
         String cssColor();
 
         Optional<URL> stream();
     }
 
     default RoomConfig findRoom(String name) {
-        for (Map.Entry<String, RoomConfig> entry : rooms().entrySet()) {
-            if (entry.getValue().name().equals(name)) {
-                return entry.getValue();
+        for (RoomConfig room : rooms()) {
+            if (room.name().equals(name) || room.color().equals(name)) {
+                return room;
             }
         }
-        return rooms().get(name);
+        throw new IllegalArgumentException("Room not found: " + name);
     }
 
     default URI nextMedia() {
