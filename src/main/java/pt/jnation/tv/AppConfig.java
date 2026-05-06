@@ -7,11 +7,15 @@ import java.net.URI;
 import java.net.URL;
 import java.time.Duration;
 import java.time.LocalTime;
+import java.time.ZoneId;
 import java.util.List;
 import java.util.Optional;
 
 @ConfigMapping(prefix = "jnation.tv")
 public interface AppConfig {
+    @WithDefault("Europe/Lisbon")
+    ZoneId zoneId();
+
     List<RoomConfig> rooms();
 
     @WithDefault("https://jnation.pt")

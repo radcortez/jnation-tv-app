@@ -18,6 +18,7 @@ import pt.jnation.tv.sessionize.SessionizeClient;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -44,11 +45,13 @@ public class SessionsResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get(@PathParam("date") final LocalDate date) {
-        LocalDateTime now = LocalDateTime.now()
-                .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
+        LocalDateTime now = ZonedDateTime.now(appConfig.zoneId())
+                .withYear(date.getYear())
+                .withMonth(date.getMonthValue())
+                .withDayOfMonth(date.getDayOfMonth())
+                .toLocalDateTime();
 
         List<Session> sessions = getSessions(now);
-
         if (sessions.isEmpty()) {
             return ErrorTemplate.error("No more Sessions for Today!");
         }

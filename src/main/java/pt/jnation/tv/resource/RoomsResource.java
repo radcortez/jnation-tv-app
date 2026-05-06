@@ -20,6 +20,7 @@ import pt.jnation.tv.sessionize.SessionizeClient;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -45,8 +46,11 @@ public class RoomsResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get(@PathParam("name") final String name, @PathParam("date") final LocalDate date) {
-        LocalDateTime now = LocalDateTime.now()
-                .withYear(date.getYear()).withMonth(date.getMonthValue()).withDayOfMonth(date.getDayOfMonth());
+        LocalDateTime now = ZonedDateTime.now(appConfig.zoneId())
+                .withYear(date.getYear())
+                .withMonth(date.getMonthValue())
+                .withDayOfMonth(date.getDayOfMonth())
+                .toLocalDateTime();
         SessionResponse session = getSession(name, now);
         if (session.hasSession()) {
             RoomConfig roomConfig = appConfig.findRoom(name);
