@@ -44,4 +44,4 @@ jobs:
       - name: deploy to google cloud
         uses: 'google-github-actions/deploy-appengine@v2'
         with:
-          project_id: jnation-tv-app
+          project_id: jnation2026-tv-app
