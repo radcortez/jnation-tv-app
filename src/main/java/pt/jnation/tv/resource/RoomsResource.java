@@ -10,6 +10,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import pt.jnation.tv.AppConfig;
 import pt.jnation.tv.AppConfig.RoomConfig;
@@ -93,10 +94,67 @@ public class RoomsResource {
         return SessionResponse.error("No more Sessions for Today!");
     }
 
+    @GET
+    @Path("/{name}/timer")
+    @Produces(MediaType.TEXT_HTML)
+    @Blocking
+    public TemplateInstance timer(@PathParam("name") final String name) {
+        RoomConfig roomConfig = appConfig.findRoom(name);
+        return Templates.timer(name, roomConfig, null);
+    }
+
+    @GET
+    @Path("/{name}/timer/{date}")
+    @Produces(MediaType.TEXT_HTML)
+    @Blocking
+    public TemplateInstance timer(@PathParam("name") final String name, @PathParam("date") final LocalDate date) {
+        RoomConfig roomConfig = appConfig.findRoom(name);
+        return Templates.timer(name, roomConfig, date);
+    }
+
+    @GET
+    @Path("/{name}/timer/data")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Blocking
+    public Response timerData(@PathParam("name") final String name) {
+        LocalDateTime now = ZonedDateTime.now(appConfig.zoneId()).toLocalDateTime();
+        return buildTimerData(name, now);
+    }
+
+    @GET
+    @Path("/{name}/timer/data/{date}")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Blocking
+    public Response timerData(@PathParam("name") final String name, @PathParam("date") final LocalDate date) {
+        LocalDateTime now = ZonedDateTime.now(appConfig.zoneId())
+                .withYear(date.getYear())
+                .withMonth(date.getMonthValue())
+                .withDayOfMonth(date.getDayOfMonth())
+                .toLocalDateTime();
+        return buildTimerData(name, now);
+    }
+
+    private Response buildTimerData(final String name, final LocalDateTime now) {
+        SessionResponse session = getSession(name, now);
+        if (session.hasSession()) {
+            Session s = session.getSession();
+            return Response.ok(new TimerData(s.title(),
+                    s.speakers().stream().map(sp -> new TimerSpeaker(sp.fullName(), sp.profilePicture())).toList(),
+                    s.startsAt().toString(), s.endsAt().toString(), now.toString())).build();
+        } else {
+            return Response.ok(new TimerData(null, List.of(), null, null, now.toString())).build();
+        }
+    }
+
+    public record TimerData(String title, List<TimerSpeaker> speakers, String startsAt, String endsAt, String serverTime) {}
+    public record TimerSpeaker(String fullName, java.net.URI profilePicture) {}
+
     @CheckedTemplate
     public static class Templates {
         @Location("session-card.html")
         public static native TemplateInstance sessionCard(Session session, RoomConfig roomConfig);
+
+        public static native TemplateInstance timer(String room, RoomConfig roomConfig, LocalDate date);
     }
 
     public static class SessionResponse {

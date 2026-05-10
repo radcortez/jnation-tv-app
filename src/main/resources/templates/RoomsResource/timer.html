@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Session Timer - {roomConfig.name}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        body {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #1a1a2e;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #session-info {
+            flex: 1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .room-header {
+            background-color: {roomConfig.cssColor};
+            width: 100%;
+            padding: 1.5vh 0;
+            flex-shrink: 0;
+        }
+
+        .room-header h1 {
+            text-transform: uppercase;
+            font-size: clamp(1.5rem, 3vw, 3rem);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .session-title {
+            font-size: clamp(1.1rem, 2.5vw, 2rem);
+            margin: 0;
+            font-weight: 600;
+            line-height: 1.2;
+            text-align: left;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .session-footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 3vw;
+            flex-shrink: 0;
+            padding: 1.5vh 4vw;
+            background-color: rgba(255, 255, 255, 0.05);
+            width: 100%;
+        }
+
+        .speakers {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1vh 2vw;
+        }
+
+        .speakers img {
+            width: clamp(40px, 4vw, 70px);
+            height: clamp(40px, 4vw, 70px);
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .timer-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            overflow: hidden;
+            padding: 0 2vw;
+        }
+
+        .timer-value {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            line-height: 1;
+            white-space: nowrap;
+            max-width: 100%;
+        }
+
+        .timer-label {
+            font-size: clamp(1rem, 2.5vw, 1.8rem);
+            margin-top: 1vh;
+            opacity: 0.8;
+            font-weight: 400;
+        }
+
+        .timer-blue {
+            color: #a0c4ff;
+        }
+
+        .timer-yellow {
+            color: #ffd166;
+        }
+
+        .timer-green {
+            color: #06d6a0;
+        }
+
+        .timer-red {
+            color: #ef476f;
+        }
+
+        .no-session {
+            font-size: clamp(1.5rem, 4vw, 3rem);
+            opacity: 0.6;
+        }
+
+        @media screen and (min-width: 1200px) {
+            .room-header h1 {
+                font-size: clamp(2rem, 4vw, 4rem);
+            }
+
+            .session-title {
+                font-size: clamp(1.5rem, 3vw, 2.5rem);
+            }
+
+            .speakers img {
+                width: clamp(50px, 5vw, 90px);
+                height: clamp(50px, 5vw, 90px);
+            }
+
+            .timer-label {
+                font-size: clamp(1.2rem, 3vw, 2.2rem);
+            }
+
+            .no-session {
+                font-size: clamp(2rem, 5vw, 4rem);
+            }
+        }
+
+        @media screen and (min-width: 1920px) {
+            .room-header {
+                padding: 3vh 0;
+            }
+
+            .room-header h1 {
+                font-size: clamp(3rem, 5vw, 5rem);
+            }
+
+            .session-title {
+                font-size: clamp(2rem, 3.5vw, 3.5rem);
+            }
+
+            .speakers img {
+                width: clamp(70px, 6vw, 120px);
+                height: clamp(70px, 6vw, 120px);
+            }
+
+            .timer-label {
+                font-size: clamp(1.5rem, 3.5vw, 2.8rem);
+            }
+
+            .no-session {
+                font-size: clamp(2.5rem, 6vw, 5rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="room-header">
+        <h1 id="room-name">{roomConfig.name}</h1>
+    </div>
+    <div id="session-info" style="display: none;">
+        <div class="timer-container">
+            <div class="timer-value" id="timer-value">--:--</div>
+            <div class="timer-label" id="timer-label"></div>
+        </div>
+        <div class="session-footer">
+            <h2 class="session-title" id="session-title"></h2>
+            <div class="speakers" id="speakers"></div>
+        </div>
+    </div>
+    <div id="no-session" class="no-session" style="display: none;">
+        No more sessions for today
+    </div>
+
+    <script>
+        const room = '{room}';
+        const date = '{date ?: ""}';
+        let currentSession = null;
+        let sessionEndedAt = null;
+
+        function pad(n) {
+            return String(n).padStart(2, '0');
+        }
+
+        function formatDuration(ms) {
+            if (ms <= 0) return '00:00';
+            const totalSeconds = Math.floor(ms / 1000);
+            const hours = Math.floor(totalSeconds / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const seconds = totalSeconds % 60;
+            if (hours > 0) {
+                return hours + ':' + pad(minutes) + ':' + pad(seconds);
+            }
+            return pad(minutes) + ':' + pad(seconds);
+        }
+
+        function formatTime(dateStr) {
+            const d = new Date(dateStr);
+            return pad(d.getHours()) + ':' + pad(d.getMinutes());
+        }
+
+        function updateTimer() {
+            if (!currentSession || !currentSession.startsAt) return;
+
+            const now = Date.now() + serverOffset;
+            const start = new Date(currentSession.startsAt).getTime();
+            const end = new Date(currentSession.endsAt).getTime();
+            const duration = end - start;
+            const timeToStart = start - now;
+
+            const timerValue = document.getElementById('timer-value');
+            const timerLabel = document.getElementById('timer-label');
+
+            if (now >= end) {
+                if (!sessionEndedAt) {
+                    sessionEndedAt = now;
+                }
+                const timeSinceEnd = now - sessionEndedAt;
+                if (timeSinceEnd < 60 * 1000) {
+                    // Show "Time is Up!" for 60 seconds
+                    timerValue.textContent = 'Time is Up!';
+                    timerValue.className = 'timer-value timer-red';
+                    timerLabel.textContent = '';
+                    resizeTimer();
+                    return;
+                }
+                // After 5 minutes, fetch next session
+                sessionEndedAt = null;
+                currentSession = null;
+                fetchSession();
+                return;
+            }
+
+            if (timeToStart > 5 * 60 * 1000) {
+                // More than 5 min before start - show static duration
+                timerValue.textContent = formatDuration(duration);
+                timerValue.className = 'timer-value timer-blue';
+                timerLabel.textContent = 'Starts at ' + formatTime(currentSession.startsAt);
+            } else if (timeToStart > 0) {
+                // Less than 5 min before start - countdown to start
+                timerValue.textContent = formatDuration(timeToStart);
+                timerValue.className = 'timer-value timer-yellow';
+                timerLabel.textContent = 'Starting soon';
+            } else {
+                // Session in progress - countdown remaining
+                const remaining = end - now;
+                timerValue.textContent = formatDuration(remaining);
+                if (remaining <= 5 * 60 * 1000) {
+                    timerValue.className = 'timer-value timer-red';
+                } else if (remaining <= 10 * 60 * 1000) {
+                    timerValue.className = 'timer-value timer-yellow';
+                } else {
+                    timerValue.className = 'timer-value timer-green';
+                }
+                timerLabel.textContent = 'Remaining';
+            }
+
+            resizeTimer();
+        }
+
+        let serverOffset = 0;
+
+        function fetchSession() {
+            // Don't fetch while showing "Time is Up!"
+            if (sessionEndedAt) return;
+
+            const dataUrl = '/room/' + encodeURIComponent(room) + '/timer/data' + (date ? '/' + date : '');
+            fetch(dataUrl)
+                .then(r => r.json())
+                .then(data => {
+                    // Calculate offset between server and client time
+                    if (data.serverTime) {
+                        serverOffset = new Date(data.serverTime).getTime() - Date.now();
+                    }
+
+                    if (!data.title) {
+                        document.getElementById('session-info').style.display = 'none';
+                        document.getElementById('no-session').style.display = 'block';
+                        currentSession = null;
+                        return;
+                    }
+
+                    document.getElementById('session-info').style.display = 'flex';
+                    document.getElementById('no-session').style.display = 'none';
+
+                    sessionEndedAt = null;
+                    currentSession = data;
+
+                    document.getElementById('session-title').textContent = data.title;
+
+                    const speakersDiv = document.getElementById('speakers');
+                    speakersDiv.innerHTML = '';
+                    data.speakers.forEach(speaker => {
+                        if (speaker.profilePicture) {
+                            const img = document.createElement('img');
+                            img.src = speaker.profilePicture;
+                            img.alt = speaker.fullName;
+                            speakersDiv.appendChild(img);
+                        }
+                    });
+
+                    updateTimer();
+                })
+                .catch(err => console.error('Failed to fetch session:', err));
+        }
+
+        let lastTimerText = '';
+
+        function resizeTimer() {
+            const timerValue = document.getElementById('timer-value');
+            const container = document.querySelector('.timer-container');
+            if (!timerValue || !container || !timerValue.textContent) return;
+
+            // Only recalculate when text length changes or on first run
+            const currentText = timerValue.textContent;
+            if (currentText === lastTimerText) return;
+            lastTimerText = currentText;
+
+            const containerHeight = container.clientHeight;
+            const containerWidth = container.clientWidth;
+            const maxWidth = containerWidth * 0.95;
+            const maxHeight = containerHeight * 0.7;
+
+            // Reset to a large size first
+            let fontSize = Math.min(containerHeight * 0.8, containerWidth);
+            timerValue.style.fontSize = fontSize + 'px';
+
+            // Shrink until it fits both width and height
+            while (fontSize > 10 && (timerValue.scrollWidth > maxWidth || timerValue.scrollHeight > maxHeight)) {
+                fontSize -= 4;
+                timerValue.style.fontSize = fontSize + 'px';
+            }
+        }
+
+        window.addEventListener('resize', () => { lastTimerText = ''; resizeTimer(); });
+
+        // Initial fetch
+        fetchSession();
+
+        // Update timer every second
+        setInterval(updateTimer, 1000);
+
+        // Re-fetch session data every 30 seconds to detect session changes
+        setInterval(fetchSession, 30000);
+    </script>
+</body>
+</html>
