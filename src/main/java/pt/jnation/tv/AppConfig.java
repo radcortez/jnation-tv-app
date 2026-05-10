@@ -2,6 +2,9 @@ package pt.jnation.tv;
 
 import io.smallrye.config.ConfigMapping;
 import io.smallrye.config.WithDefault;
+import io.smallrye.config.WithDefaults;
+import io.smallrye.config.WithParentName;
+import io.smallrye.config.WithUnnamedKey;
 
 import java.net.URI;
 import java.net.URL;
@@ -9,6 +12,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @ConfigMapping(prefix = "jnation.tv")
@@ -18,14 +22,9 @@ public interface AppConfig {
 
     List<RoomConfig> rooms();
 
-    @WithDefault("https://jnation.pt")
-    List<URI> media();
-
-    @WithDefault("https://jnation.pt")
-    List<URI> keynote();
-
-    @WithDefault("15s")
-    Duration interval();
+    @WithUnnamedKey("default")
+    @WithDefaults
+    Map<String, MediaConfig> media();
 
     interface RoomConfig {
         String name();
@@ -46,11 +45,16 @@ public interface AppConfig {
         throw new IllegalArgumentException("Room not found: " + name);
     }
 
-    default URI nextMedia() {
-        return media().get(LocalTime.now().toSecondOfDay() / interval().toSecondsPart() % media().size());
-    }
+    interface MediaConfig {
+        @WithDefault("https://jnation.pt")
+        @WithParentName
+        List<URI> media();
 
-    default URI nextKeynote() {
-        return keynote().get(LocalTime.now().toSecondOfDay() / interval().toSecondsPart() % keynote().size());
+        @WithDefault("15s")
+        Duration interval();
+
+        default URI next() {
+            return media().get(LocalTime.now().toSecondOfDay() / interval().toSecondsPart() % media().size());
+        }
     }
 }

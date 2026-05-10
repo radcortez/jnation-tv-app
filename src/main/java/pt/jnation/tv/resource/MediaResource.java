@@ -7,6 +7,7 @@ import io.smallrye.common.annotation.Blocking;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import pt.jnation.tv.AppConfig;
@@ -20,7 +21,15 @@ public class MediaResource {
     @Produces(MediaType.TEXT_HTML)
     @Blocking
     public TemplateInstance get() {
-        return Templates.media(appConfig.nextMedia().toString());
+        return Templates.media(appConfig.media().get("default").next().toString());
+    }
+
+    @GET
+    @Path("/{type}")
+    @Produces(MediaType.TEXT_HTML)
+    @Blocking
+    public TemplateInstance get(@PathParam("type") final String type) {
+        return Templates.media(appConfig.media().get(type).next().toString());
     }
 
     @CheckedTemplate
